@@ -1,0 +1,16 @@
+{
+  "context": 16,
+  "experts": 4,
+  "top_k": 2,
+  "batch_size": 256,
+  "dense_steps": 800,
+  "continuation_steps": 800,
+  "eval_every": 100,
+  "eval_samples": 4096,
+  "dense_lr": 0.003,
+  "continuation_lr": 0.002,
+  "balance_coefficient": 0.01,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "seeds": [17, 42, 123]
+}

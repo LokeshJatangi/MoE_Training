@@ -1,0 +1,21 @@
+{
+  "model": {
+    "vocab_size": 4096,
+    "context": 128,
+    "layers": 4,
+    "width": 192,
+    "heads": 6,
+    "intermediate": 384,
+    "experts": 4,
+    "top_k": 2
+  },
+  "initial_validation_ce": 8.353982210159302,
+  "dense_validation_ce": 4.288694858551025,
+  "parent_validation_ce": 4.123746156692505,
+  "parent_parameters": {
+    "total": 4946304,
+    "active_parameter_convention": 3176832,
+    "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+  },
+  "parent_optimizer": "AdamW reset at dense -> parent MoE; balance coefficient .01"
+}

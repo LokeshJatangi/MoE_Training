@@ -1,0 +1,17 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "device": "cuda",
+  "threads": 2,
+  "gpu_name": "Tesla T4",
+  "git_commit": null,
+  "source_sha256": {
+    "src/train.py": "3e2d297940f6c546f56786377acca2f1c12d25681a516a2369c2f5fab9085b52",
+    "src/models.py": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd",
+    "src/gpt.py": "50a386e2f54825a7e91219f95011d459a82a57559785cad3423527cd4ce35251",
+    "src/conversion_checks.py": "72a0399b15f4e96a83ac1f6c6475561a60f891d618ccd2539d93fc058a3463fe",
+    "src/train_gpt.py": "5a510ca07aa7bee488f7f27bd7f8f16c8ae8271cda791f87c5540457608cc65b"
+  },
+  "precision": "FP32; no autocast/dropout",
+  "source_hash_scope": "Sanitized submission snapshots; original verified digests are recorded in provenance/source_verification.json."
+}

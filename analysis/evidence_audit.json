@@ -1,0 +1,62 @@
+{
+  "gpt": {
+    "evidence_root": "MoE_Training-results",
+    "run": "gpt-colab-recovered-20261012-180346-953876",
+    "source_hashes_verified": 5,
+    "source_hash_mismatches": [],
+    "gpu": "Tesla T4",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "seed": 17,
+    "summary_sha256": "1c9b205490972a5e0dc89586f267ece1d4d9aad0b8730fb48a6a5bc031ff59ef",
+    "metrics_sha256": "5b3b59120eec7acc0e7004796377c8d611d5a11919415fa4e74704c02f677766",
+    "record_count": 33,
+    "completed": true
+  },
+  "granular": {
+    "evidence_root": "MoE_Granular_Lab-evidence",
+    "run": "granular-20261012-122635-419439",
+    "source_hashes_verified": 6,
+    "source_hash_mismatches": [],
+    "gpu": "Tesla T4",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "seed": 17,
+    "summary_sha256": "fdb3f00ad0d8d0aeb5400757f736ca99ecd3955e312535e4ec0bbdc39fe63fb0",
+    "metrics_sha256": "c4bc4920feb7033fa4250293372393120dc8c02d42945dd4aae1d4a93d3692c6",
+    "record_count": 44,
+    "completed": true
+  },
+  "clone": {
+    "evidence_root": "MoE_Clone_Lab-evidence",
+    "run": "clone-first-20261012-133612",
+    "source_hashes_verified": 6,
+    "source_hash_mismatches": [],
+    "gpu": "Tesla T4",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "seed": 17,
+    "summary_sha256": "fbff4a3c8282591fb401d5452bfc54ccb89456755ff2ffb0348bea066bae94b9",
+    "metrics_sha256": "3ade9ca38cd5c526666d25e90c9296958594bfb2db652bb06f789fd513c4dd0a",
+    "record_count": 93,
+    "completed": true
+  },
+  "tinystories_shared_manifest": {
+    "dataset": "roneneldan/TinyStories",
+    "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+    "shuffle_seed": 17,
+    "shuffle_buffer": 2000,
+    "train_stories": 12000,
+    "validation_stories": 1200,
+    "test_stories": 1200,
+    "token_counts": {
+      "train": 2690332,
+      "validation": 250020,
+      "test": 250173
+    },
+    "vocab_size": 4096,
+    "tokenizer_sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093",
+    "packed_policy": "concatenate documents with EOS; causal attention may cross EOS",
+    "deduplication": "exact cross-split document hashing only; not near-duplicate decontamination"
+  }
+}

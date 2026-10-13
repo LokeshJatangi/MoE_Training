@@ -1,0 +1,13 @@
+{
+  "device": "cpu",
+  "gpu": null,
+  "torch": "2.9.1+cu128",
+  "python": "3.12.2",
+  "precision": "FP32",
+  "source_sha256": {
+    "src/gpt.py": "50a386e2f54825a7e91219f95011d459a82a57559785cad3423527cd4ce35251",
+    "src/routing_lab.py": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991",
+    "src/learning_metrics.py": "69c14c94ce4540339530d6b9813da4c5b8fa53418eba4788d80d4071151a51c1",
+    "src/improve_routing.py": "abdc80aef1f81119752ef80c05c50d405309feb74e010e2088eb4c26f7512440"
+  }
+}

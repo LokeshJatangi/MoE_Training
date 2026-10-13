@@ -1,0 +1,401 @@
+[
+  {
+    "name": "E12-hard",
+    "experts": 12,
+    "arm": "hard",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-hard",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.5255279541015625,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        0
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.078125,
+          0.0078125,
+          0.046875,
+          0.09375,
+          0.0,
+          0.125,
+          0.0859375,
+          0.0625,
+          0.125,
+          0.1171875,
+          0.0703125,
+          0.1875
+        ]
+      ],
+      "minimum_cumulative_routings": 4.0,
+      "family_relative_output_distance": [
+        [
+          0.13809598982334137,
+          0.23555707931518555,
+          0.22362284362316132,
+          0.18621689081192017
+        ]
+      ],
+      "switch_step": 0,
+      "elapsed_seconds": 0.1929348699923139
+    },
+    "switch_step": 0,
+    "post_switch_steps": 10,
+    "test_ce": 2.525735855102539,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-warmup",
+    "experts": 12,
+    "arm": "warmup",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-warmup",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.5256707668304443,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        0
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.03125,
+          0.046875,
+          0.078125,
+          0.0234375,
+          0.0859375,
+          0.09375,
+          0.09375,
+          0.1171875,
+          0.0625,
+          0.078125,
+          0.1796875,
+          0.109375
+        ]
+      ],
+      "minimum_cumulative_routings": 11.0,
+      "family_relative_output_distance": [
+        [
+          0.26727405190467834,
+          0.28643107414245605,
+          0.275095134973526,
+          0.26567569375038147
+        ]
+      ],
+      "switch_step": 4,
+      "elapsed_seconds": 0.21979585601366125
+    },
+    "switch_step": 4,
+    "post_switch_steps": 6,
+    "test_ce": 2.525860071182251,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-anneal",
+    "experts": 12,
+    "arm": "anneal",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-anneal",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.525681972503662,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        1
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.0703125,
+          0.0,
+          0.078125,
+          0.0546875,
+          0.0546875,
+          0.09375,
+          0.1171875,
+          0.1171875,
+          0.046875,
+          0.078125,
+          0.1796875,
+          0.109375
+        ]
+      ],
+      "minimum_cumulative_routings": 11.0,
+      "family_relative_output_distance": [
+        [
+          0.2479226440191269,
+          0.2914378345012665,
+          0.2599617838859558,
+          0.2544851303100586
+        ]
+      ],
+      "switch_step": 8,
+      "elapsed_seconds": 0.1987852290039882
+    },
+    "switch_step": 8,
+    "post_switch_steps": 2,
+    "test_ce": 2.525928258895874,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-adaptive",
+    "experts": 12,
+    "arm": "adaptive",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-adaptive",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.5256848335266113,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        0
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.046875,
+          0.0625,
+          0.046875,
+          0.0078125,
+          0.1015625,
+          0.09375,
+          0.09375,
+          0.1328125,
+          0.046875,
+          0.1015625,
+          0.1640625,
+          0.1015625
+        ]
+      ],
+      "minimum_cumulative_routings": 15.0,
+      "family_relative_output_distance": [
+        [
+          0.27001452445983887,
+          0.2852281332015991,
+          0.27663910388946533,
+          0.24737633764743805
+        ]
+      ],
+      "switch_step": 4,
+      "elapsed_seconds": 0.20275177201256156
+    },
+    "switch_step": 4,
+    "post_switch_steps": 6,
+    "test_ce": 2.5259761810302734,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-family",
+    "experts": 12,
+    "arm": "family",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0,
+    "growth_validation_ce": 2.550210952758789,
+    "final": {
+      "name": "E12-family",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.5256757736206055,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        1
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.1484375,
+          0.0546875,
+          0.0625,
+          0.0234375,
+          0.0703125,
+          0.1328125,
+          0.0078125,
+          0.0625,
+          0.140625,
+          0.0,
+          0.1875,
+          0.109375
+        ]
+      ],
+      "minimum_cumulative_routings": 10.0,
+      "family_relative_output_distance": [
+        [
+          0.3355255126953125,
+          0.2758595645427704,
+          0.22928714752197266,
+          0.2630440890789032
+        ]
+      ],
+      "switch_step": 4,
+      "elapsed_seconds": 0.1989527480036486
+    },
+    "switch_step": 4,
+    "post_switch_steps": 6,
+    "test_ce": 2.5259006023406982,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-bias",
+    "experts": 12,
+    "arm": "bias",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-bias",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.52557373046875,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        0
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.0546875,
+          0.0859375,
+          0.0703125,
+          0.0625,
+          0.0859375,
+          0.0625,
+          0.0703125,
+          0.078125,
+          0.125,
+          0.1015625,
+          0.0859375,
+          0.1171875
+        ]
+      ],
+      "minimum_cumulative_routings": 10.0,
+      "family_relative_output_distance": [
+        [
+          0.147865429520607,
+          0.23226578533649445,
+          0.19881671667099,
+          0.1677616387605667
+        ]
+      ],
+      "switch_step": 0,
+      "elapsed_seconds": 0.19725965801626444
+    },
+    "switch_step": 0,
+    "post_switch_steps": 10,
+    "test_ce": 2.525813579559326,
+    "peak_cuda_allocated_bytes": null
+  },
+  {
+    "name": "E12-aux",
+    "experts": 12,
+    "arm": "aux",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "estimated_parameter_optimizer_bytes": 321280,
+    "status": "completed",
+    "growth_max_logit_change": 0.0003689602017402649,
+    "growth_validation_ce": 2.5501766204833984,
+    "final": {
+      "name": "E12-aux",
+      "step": 10,
+      "exploration": 0.0,
+      "validation_ce": 2.5255753993988037,
+      "window_zero_routing_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        0
+      ],
+      "hard_probe_expert_fractions": [
+        [
+          0.0859375,
+          0.0546875,
+          0.0859375,
+          0.078125,
+          0.0546875,
+          0.0703125,
+          0.1015625,
+          0.1015625,
+          0.0703125,
+          0.1484375,
+          0.046875,
+          0.1015625
+        ]
+      ],
+      "minimum_cumulative_routings": 12.0,
+      "family_relative_output_distance": [
+        [
+          0.15848369896411896,
+          0.21384106576442719,
+          0.17621837556362152,
+          0.17066794633865356
+        ]
+      ],
+      "switch_step": 0,
+      "elapsed_seconds": 0.19779905999894254
+    },
+    "switch_step": 0,
+    "post_switch_steps": 10,
+    "test_ce": 2.5258636474609375,
+    "peak_cuda_allocated_bytes": null
+  }
+]

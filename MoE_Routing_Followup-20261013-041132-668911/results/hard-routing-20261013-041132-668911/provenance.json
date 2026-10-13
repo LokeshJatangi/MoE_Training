@@ -1,0 +1,39 @@
+{
+  "parent_sha256": "8e15403572a5a629b0b6ef7060275bbe5efb68cd9b07bda597bcc143dced911d",
+  "parent_source": {
+    "parent_sha256": "8e15403572a5a629b0b6ef7060275bbe5efb68cd9b07bda597bcc143dced911d",
+    "source": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/parent.pt",
+    "architecture": {
+      "vocab_size": 4096,
+      "context": 128,
+      "layers": 4,
+      "width": 192,
+      "heads": 6,
+      "intermediate": 384,
+      "experts": 4,
+      "top_k": 2
+    },
+    "parent_training_steps": 250,
+    "dense_training_steps": 500,
+    "parent_validation_ce": 4.123746156692505
+  },
+  "data_manifest": {
+    "dataset": "roneneldan/TinyStories",
+    "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+    "shuffle_seed": 17,
+    "shuffle_buffer": 2000,
+    "train_stories": 12000,
+    "validation_stories": 1200,
+    "test_stories": 1200,
+    "token_counts": {
+      "train": 2690332,
+      "validation": 250020,
+      "test": 250173
+    },
+    "vocab_size": 4096,
+    "tokenizer_sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093",
+    "packed_policy": "concatenate documents with EOS; causal attention may cross EOS",
+    "deduplication": "exact cross-split document hashing only; not near-duplicate decontamination"
+  },
+  "npz_sha256": "ffe76e4ff906b4bf2be7d0abd5ce61dd74eb497d78a2d37e614f8ad153e164bc"
+}

@@ -1,0 +1,2149 @@
+{
+  "provenance": "Audit of completed original T4 checkpoints; no new training",
+  "arms": [
+    {
+      "arm": "hard",
+      "layers": [
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 128910,
+            "weight_change_l2": 2.9796479421069155,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.031444551180277565,
+            "second_moment_sum": 0.017900642240419984,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 128910,
+            "weight_change_l2": 2.9796479421069155,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.031444551180277565,
+            "second_moment_sum": 0.017900642240419984,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 76751,
+            "weight_change_l2": 3.005180455722569,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.019997154099776083,
+            "second_moment_sum": 0.008765753475017846,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 76751,
+            "weight_change_l2": 3.005180455722569,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.019997154099776083,
+            "second_moment_sum": 0.008765753475017846,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 123807,
+            "weight_change_l2": 3.2610733947074766,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.02763002609668059,
+            "second_moment_sum": 0.017134087160229683,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 123807,
+            "weight_change_l2": 3.2610733947074766,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.02763002609668059,
+            "second_moment_sum": 0.017134087160229683,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 54532,
+            "weight_change_l2": 3.0372012992268305,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.017152023659034957,
+            "second_moment_sum": 0.005482689826749265,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 54532,
+            "weight_change_l2": 3.0372012992268305,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.017152023659034957,
+            "second_moment_sum": 0.005482689826749265,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 145572,
+            "weight_change_l2": 2.9685310283013986,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014951587194279551,
+            "second_moment_sum": 0.004106470267288387,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 145572,
+            "weight_change_l2": 2.9685310283013986,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014951587194279551,
+            "second_moment_sum": 0.004106470267288387,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 109714,
+            "weight_change_l2": 3.106966974419926,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012813920166412486,
+            "second_moment_sum": 0.004198414913844317,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 109714,
+            "weight_change_l2": 3.106966974419926,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012813920166412486,
+            "second_moment_sum": 0.004198414913844317,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 79778,
+            "weight_change_l2": 3.1033431545994032,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.011779241058280498,
+            "second_moment_sum": 0.0024118188011925668,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 79778,
+            "weight_change_l2": 3.1033431545994032,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.011779241058280498,
+            "second_moment_sum": 0.0024118188011925668,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 48936,
+            "weight_change_l2": 2.946729607499637,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006220689857338137,
+            "second_moment_sum": 0.0008037868901737966,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 48936,
+            "weight_change_l2": 2.946729607499637,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006220689857338137,
+            "second_moment_sum": 0.0008037868901737966,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 147121,
+            "weight_change_l2": 3.2779431346269043,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010251661605609197,
+            "second_moment_sum": 0.0022546434483956546,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 147121,
+            "weight_change_l2": 3.2779431346269043,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010251661605609197,
+            "second_moment_sum": 0.0022546434483956546,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 70497,
+            "weight_change_l2": 3.28959669545709,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0071783736671666805,
+            "second_moment_sum": 0.00106220027373638,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 70497,
+            "weight_change_l2": 3.28959669545709,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0071783736671666805,
+            "second_moment_sum": 0.00106220027373638,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 61458,
+            "weight_change_l2": 3.268276069375484,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006377599715444679,
+            "second_moment_sum": 0.0007595285205752589,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 61458,
+            "weight_change_l2": 3.268276069375484,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006377599715444679,
+            "second_moment_sum": 0.0007595285205752589,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 104924,
+            "weight_change_l2": 3.291433969956372,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008789122259662042,
+            "second_moment_sum": 0.00138280879764352,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 104924,
+            "weight_change_l2": 3.291433969956372,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008789122259662042,
+            "second_moment_sum": 0.00138280879764352,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 92437,
+            "weight_change_l2": 3.3327460645876053,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.011237683777379152,
+            "second_moment_sum": 0.0021792243351228535,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 92437,
+            "weight_change_l2": 3.3327460645876053,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.011237683777379152,
+            "second_moment_sum": 0.0021792243351228535,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 156078,
+            "weight_change_l2": 3.2207824068044713,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014380053372861216,
+            "second_moment_sum": 0.004293860227335244,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 156078,
+            "weight_change_l2": 3.2207824068044713,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014380053372861216,
+            "second_moment_sum": 0.004293860227335244,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 89826,
+            "weight_change_l2": 3.305548048589679,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010046562192422693,
+            "second_moment_sum": 0.0022437707521021366,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 89826,
+            "weight_change_l2": 3.305548048589679,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010046562192422693,
+            "second_moment_sum": 0.0022437707521021366,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 45659,
+            "weight_change_l2": 3.1688310270464743,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008321045104324706,
+            "second_moment_sum": 0.0014045241405256093,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 45659,
+            "weight_change_l2": 3.1688310270464743,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008321045104324706,
+            "second_moment_sum": 0.0014045241405256093,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 0,
+            "weight_change_l2": 0.0,
+            "adam_matrices": 0,
+            "adam_steps": [],
+            "first_moment_l2": 0.0,
+            "second_moment_sum": 0.0,
+            "task_gradient_history_evidence": false
+          }
+        ]
+      ],
+      "zero_lifetime_experts": 16,
+      "no_task_gradient_history_experts": 16,
+      "unchanged_experts": 16
+    },
+    {
+      "arm": "warmup",
+      "layers": [
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 116975,
+            "weight_change_l2": 2.9971685558138415,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.041728962055124205,
+            "second_moment_sum": 0.03130823094397783,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 67228,
+            "weight_change_l2": 3.0211818669393553,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012094748842873763,
+            "second_moment_sum": 0.0033404891728423536,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 38546,
+            "weight_change_l2": 3.1174385141826733,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.005211734596346953,
+            "second_moment_sum": 0.00048213180707534775,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 68864,
+            "weight_change_l2": 3.1413019693783713,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01661708083269719,
+            "second_moment_sum": 0.006871205987408757,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 42333,
+            "weight_change_l2": 3.093280255654303,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.009420745253781865,
+            "second_moment_sum": 0.0019906238885596395,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 17410,
+            "weight_change_l2": 2.786079628186412,
+            "adam_matrices": 3,
+            "adam_steps": [
+              620,
+              620,
+              620
+            ],
+            "first_moment_l2": 0.0021490336563503654,
+            "second_moment_sum": 0.0001431784785381751,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 98860,
+            "weight_change_l2": 3.335349752567839,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.026227301550091318,
+            "second_moment_sum": 0.012186245061457157,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 88385,
+            "weight_change_l2": 3.2774937882935578,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.017709519544732526,
+            "second_moment_sum": 0.008510603569447994,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 93043,
+            "weight_change_l2": 3.2967646792787866,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.03257113534972703,
+            "second_moment_sum": 0.026195005513727665,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 14403,
+            "weight_change_l2": 2.925722740413379,
+            "adam_matrices": 3,
+            "adam_steps": [
+              694,
+              694,
+              694
+            ],
+            "first_moment_l2": 0.0013489168970009437,
+            "second_moment_sum": 5.803482144983718e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 98002,
+            "weight_change_l2": 3.1309630911645803,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.03196342715007704,
+            "second_moment_sum": 0.01882272749207914,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 23951,
+            "weight_change_l2": 3.0014048307074788,
+            "adam_matrices": 3,
+            "adam_steps": [
+              719,
+              719,
+              719
+            ],
+            "first_moment_l2": 0.0023562152231494677,
+            "second_moment_sum": 9.002476508612745e-05,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 79891,
+            "weight_change_l2": 3.052609100016719,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.00943751757233217,
+            "second_moment_sum": 0.001755526231136173,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 92262,
+            "weight_change_l2": 2.9564069645767233,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010110895940802151,
+            "second_moment_sum": 0.0021507324709091336,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 114288,
+            "weight_change_l2": 2.984925703596934,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014845007506705185,
+            "second_moment_sum": 0.0044544864795170724,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 29891,
+            "weight_change_l2": 3.0725248097720934,
+            "adam_matrices": 3,
+            "adam_steps": [
+              744,
+              744,
+              744
+            ],
+            "first_moment_l2": 0.0022763930506052837,
+            "second_moment_sum": 0.00013749019854003564,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 74755,
+            "weight_change_l2": 3.1015678809285028,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006602330409494241,
+            "second_moment_sum": 0.0010664609289960936,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 110931,
+            "weight_change_l2": 3.1379013777455658,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.016884925371069916,
+            "second_moment_sum": 0.006664608605206013,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 49611,
+            "weight_change_l2": 3.246992627125209,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012691393606149749,
+            "second_moment_sum": 0.0025478101160842925,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 47844,
+            "weight_change_l2": 3.202904633175665,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.007520541150716066,
+            "second_moment_sum": 0.0009917832940118387,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 72162,
+            "weight_change_l2": 3.1179121891206916,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01334376039326362,
+            "second_moment_sum": 0.0034652306931093335,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 43474,
+            "weight_change_l2": 3.0769449673387483,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006422044935585817,
+            "second_moment_sum": 0.0007804311389918439,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 33734,
+            "weight_change_l2": 2.9608203391697145,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.002758719032746997,
+            "second_moment_sum": 0.0001012842567433836,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 19157,
+            "weight_change_l2": 2.7778102305953727,
+            "adam_matrices": 3,
+            "adam_steps": [
+              655,
+              655,
+              655
+            ],
+            "first_moment_l2": 0.0016502478960960065,
+            "second_moment_sum": 4.835272238778998e-05,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 127553,
+            "weight_change_l2": 3.3384990639827388,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.013023177362159228,
+            "second_moment_sum": 0.003377950401045382,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 73931,
+            "weight_change_l2": 3.2468452180555785,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006931634602765935,
+            "second_moment_sum": 0.0007889564585639164,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 100382,
+            "weight_change_l2": 3.289139590413274,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0065369653148719,
+            "second_moment_sum": 0.0010156316857319325,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 31315,
+            "weight_change_l2": 3.3298203712563814,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0018941263613876267,
+            "second_moment_sum": 0.00010693652893678518,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 28131,
+            "weight_change_l2": 3.226799649074219,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0032028348126646833,
+            "second_moment_sum": 0.0002610124174680095,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 63059,
+            "weight_change_l2": 3.3758794910179133,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.00841193554317003,
+            "second_moment_sum": 0.0017901031824294478,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 41696,
+            "weight_change_l2": 3.295505835992006,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005789886370109997,
+            "second_moment_sum": 0.0006193600565893576,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 32705,
+            "weight_change_l2": 3.3997718033225035,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.004609099239528159,
+            "second_moment_sum": 0.00047332786925835535,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 39695,
+            "weight_change_l2": 3.3678997021213672,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.003918164545587653,
+            "second_moment_sum": 0.0003084473864873871,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 110843,
+            "weight_change_l2": 3.3323083652762815,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012395247130148052,
+            "second_moment_sum": 0.002621014864416793,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 52797,
+            "weight_change_l2": 3.355338790206469,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005379112505178261,
+            "second_moment_sum": 0.0006395999735104851,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 65893,
+            "weight_change_l2": 3.2992586314568357,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005063183900193878,
+            "second_moment_sum": 0.0004022145913040731,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 46650,
+            "weight_change_l2": 3.252401125179833,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.004766865611683487,
+            "second_moment_sum": 0.0007353973051067442,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 130550,
+            "weight_change_l2": 3.405301758254848,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.019935915944945624,
+            "second_moment_sum": 0.007642421638593078,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 30871,
+            "weight_change_l2": 3.1721802738405396,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.00270477993986008,
+            "second_moment_sum": 0.00011399693175917491,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 34693,
+            "weight_change_l2": 3.1402306380275182,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0022761994435442543,
+            "second_moment_sum": 0.0001083569586626254,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 92436,
+            "weight_change_l2": 3.159339072969333,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008731591119823166,
+            "second_moment_sum": 0.0015135237481445074,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 157146,
+            "weight_change_l2": 3.255576924119011,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.019896893405426486,
+            "second_moment_sum": 0.008683755062520504,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 48460,
+            "weight_change_l2": 3.2407846012376793,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005001733315207047,
+            "second_moment_sum": 0.0006098228186601773,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 89065,
+            "weight_change_l2": 3.3038698451935864,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010743639249130075,
+            "second_moment_sum": 0.0028352378285489976,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 30940,
+            "weight_change_l2": 3.0141070009133237,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.00152656859963764,
+            "second_moment_sum": 8.522686584910844e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 32941,
+            "weight_change_l2": 3.1474046172459706,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0037244705747908413,
+            "second_moment_sum": 0.0002803744609991554,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 52168,
+            "weight_change_l2": 3.163551684930937,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.011220445270606104,
+            "second_moment_sum": 0.0019846848445013165,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 22080,
+            "weight_change_l2": 3.168323953190911,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.003509787200892579,
+            "second_moment_sum": 0.0003834982853732072,
+            "task_gradient_history_evidence": true
+          }
+        ]
+      ],
+      "zero_lifetime_experts": 0,
+      "no_task_gradient_history_experts": 0,
+      "unchanged_experts": 0
+    },
+    {
+      "arm": "anneal",
+      "layers": [
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 31235,
+            "weight_change_l2": 3.087858389312784,
+            "adam_matrices": 3,
+            "adam_steps": [
+              741,
+              741,
+              741
+            ],
+            "first_moment_l2": 0.002684737920671664,
+            "second_moment_sum": 0.0002046283807430882,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 91753,
+            "weight_change_l2": 3.010289626207374,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.026890397115965893,
+            "second_moment_sum": 0.014968180796131492,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 102739,
+            "weight_change_l2": 3.001278604786601,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.030314270628307983,
+            "second_moment_sum": 0.017784039489924908,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 61616,
+            "weight_change_l2": 3.1683149230946563,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.017864979547485033,
+            "second_moment_sum": 0.007242917199619114,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 66512,
+            "weight_change_l2": 3.0640728473245455,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.021360805833549962,
+            "second_moment_sum": 0.009658921859227121,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 37005,
+            "weight_change_l2": 3.1291190657231187,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006310404292562258,
+            "second_moment_sum": 0.0007013644935796037,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 72112,
+            "weight_change_l2": 3.271656799327437,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.013803516186014012,
+            "second_moment_sum": 0.0037812422960996628,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 104580,
+            "weight_change_l2": 3.267740394954648,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.03631743299705991,
+            "second_moment_sum": 0.02319964813068509,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 80390,
+            "weight_change_l2": 3.2559908523970003,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.030439202278096142,
+            "second_moment_sum": 0.017678906675428152,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 31091,
+            "weight_change_l2": 3.108595132072469,
+            "adam_matrices": 3,
+            "adam_steps": [
+              742,
+              742,
+              742
+            ],
+            "first_moment_l2": 0.003213878024576468,
+            "second_moment_sum": 0.0002358212586841546,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 58696,
+            "weight_change_l2": 3.178462661915108,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01894090137333207,
+            "second_moment_sum": 0.006927417358383536,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 30271,
+            "weight_change_l2": 3.0512811737155863,
+            "adam_matrices": 3,
+            "adam_steps": [
+              738,
+              738,
+              738
+            ],
+            "first_moment_l2": 0.002814130005182391,
+            "second_moment_sum": 0.00029064316186122596,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 67250,
+            "weight_change_l2": 3.1102351240224397,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.009819501752161161,
+            "second_moment_sum": 0.001833958551287651,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 107453,
+            "weight_change_l2": 2.981724065999689,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01182408238974111,
+            "second_moment_sum": 0.002683945815078914,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 108135,
+            "weight_change_l2": 2.9574566110635065,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014792238409542777,
+            "second_moment_sum": 0.00431681057671085,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 85370,
+            "weight_change_l2": 3.0640598917652877,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010457420472620238,
+            "second_moment_sum": 0.0025096726312767714,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 29619,
+            "weight_change_l2": 3.1123077900071805,
+            "adam_matrices": 3,
+            "adam_steps": [
+              744,
+              744,
+              744
+            ],
+            "first_moment_l2": 0.002179071260257945,
+            "second_moment_sum": 8.467541829304537e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 95501,
+            "weight_change_l2": 3.1230395461921514,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.014786505705289336,
+            "second_moment_sum": 0.005050948413554579,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 32856,
+            "weight_change_l2": 3.0865910864063655,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.0020976477679876503,
+            "second_moment_sum": 0.00011263867691013729,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 59409,
+            "weight_change_l2": 3.2298423593394574,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.012015031566356239,
+            "second_moment_sum": 0.002507639874238521,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 77898,
+            "weight_change_l2": 3.0855956455601534,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.013666907886595735,
+            "second_moment_sum": 0.0031814799876883626,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 39053,
+            "weight_change_l2": 3.112549507942338,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0071882810480878865,
+            "second_moment_sum": 0.0009846005705185235,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 36296,
+            "weight_change_l2": 3.0276614311643657,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0021343395459541884,
+            "second_moment_sum": 9.939820665749721e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 29160,
+            "weight_change_l2": 3.05505564000584,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.0025221078259581886,
+            "second_moment_sum": 0.0001674791201367043,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 83147,
+            "weight_change_l2": 3.2676564519036955,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.008172529735153217,
+            "second_moment_sum": 0.0015459832648048177,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 94361,
+            "weight_change_l2": 3.22328633015422,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010151837878825272,
+            "second_moment_sum": 0.001639927038922906,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 98192,
+            "weight_change_l2": 3.3191419984164363,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0095519349214682,
+            "second_moment_sum": 0.0017396806506440043,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 30894,
+            "weight_change_l2": 3.340550469476166,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.002226974349346601,
+            "second_moment_sum": 0.00014102584464126267,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 31448,
+            "weight_change_l2": 3.2297114784299197,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.0016845398441414094,
+            "second_moment_sum": 9.37008817345486e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 69845,
+            "weight_change_l2": 3.3770452942412987,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.009240144250658805,
+            "second_moment_sum": 0.002453702298225835,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 32231,
+            "weight_change_l2": 3.2861293662337983,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.002594017642717622,
+            "second_moment_sum": 0.00014787071631872095,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 45680,
+            "weight_change_l2": 3.2836578617013394,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005056107724828444,
+            "second_moment_sum": 0.0005048166276537813,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 56362,
+            "weight_change_l2": 3.3306780411785915,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006841338268156472,
+            "second_moment_sum": 0.0007684343145228922,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 80067,
+            "weight_change_l2": 3.2630197089158557,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.00612952672654967,
+            "second_moment_sum": 0.0007281400903593749,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 93208,
+            "weight_change_l2": 3.225173133815884,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010649625708537723,
+            "second_moment_sum": 0.0018183723004767671,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 52565,
+            "weight_change_l2": 3.2902618541111246,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005608811013612845,
+            "second_moment_sum": 0.0005951648781774566,
+            "task_gradient_history_evidence": true
+          }
+        ],
+        [
+          {
+            "expert": 0,
+            "family": 0,
+            "lifetime_routes": 60192,
+            "weight_change_l2": 3.2710526913183626,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.007123602433654718,
+            "second_moment_sum": 0.0011817738122772425,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 1,
+            "family": 0,
+            "lifetime_routes": 102155,
+            "weight_change_l2": 3.2881982170673245,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.016615886416728665,
+            "second_moment_sum": 0.0041973249753937125,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 2,
+            "family": 0,
+            "lifetime_routes": 51973,
+            "weight_change_l2": 3.1453261608693146,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006871943532047814,
+            "second_moment_sum": 0.001392669597407803,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 3,
+            "family": 1,
+            "lifetime_routes": 58490,
+            "weight_change_l2": 3.1165304614885225,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.006492650746919221,
+            "second_moment_sum": 0.000789236233686097,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 4,
+            "family": 1,
+            "lifetime_routes": 138576,
+            "weight_change_l2": 3.1898633385924993,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01997580018729371,
+            "second_moment_sum": 0.008746960666030645,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 5,
+            "family": 1,
+            "lifetime_routes": 83525,
+            "weight_change_l2": 3.155882067999527,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.010857437260147193,
+            "second_moment_sum": 0.0018284016696270555,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 6,
+            "family": 2,
+            "lifetime_routes": 33832,
+            "weight_change_l2": 3.071741756681178,
+            "adam_matrices": 3,
+            "adam_steps": [
+              749,
+              749,
+              749
+            ],
+            "first_moment_l2": 0.0019108429282551692,
+            "second_moment_sum": 7.861223275540397e-05,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 7,
+            "family": 2,
+            "lifetime_routes": 78776,
+            "weight_change_l2": 3.2792843698577827,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.01041741083473099,
+            "second_moment_sum": 0.0024877998512238264,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 8,
+            "family": 2,
+            "lifetime_routes": 56536,
+            "weight_change_l2": 3.216215932393587,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.00542136630311953,
+            "second_moment_sum": 0.0006144667131593451,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 9,
+            "family": 3,
+            "lifetime_routes": 36535,
+            "weight_change_l2": 3.075415372318922,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.005173075504039404,
+            "second_moment_sum": 0.00035718233266379684,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 10,
+            "family": 3,
+            "lifetime_routes": 28743,
+            "weight_change_l2": 3.0220104072790486,
+            "adam_matrices": 3,
+            "adam_steps": [
+              747,
+              747,
+              747
+            ],
+            "first_moment_l2": 0.002838233223740345,
+            "second_moment_sum": 0.00011438273031671997,
+            "task_gradient_history_evidence": true
+          },
+          {
+            "expert": 11,
+            "family": 3,
+            "lifetime_routes": 38667,
+            "weight_change_l2": 3.18708473193234,
+            "adam_matrices": 3,
+            "adam_steps": [
+              750,
+              750,
+              750
+            ],
+            "first_moment_l2": 0.007771224001959666,
+            "second_moment_sum": 0.0012752888578688726,
+            "task_gradient_history_evidence": true
+          }
+        ]
+      ],
+      "zero_lifetime_experts": 0,
+      "no_task_gradient_history_experts": 0,
+      "unchanged_experts": 0
+    }
+  ]
+}

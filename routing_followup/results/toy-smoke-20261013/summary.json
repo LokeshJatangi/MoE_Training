@@ -1,0 +1,3242 @@
+[
+  {
+    "arm": "hard",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "initial": {
+      "arm": "hard",
+      "step": 0,
+      "validation_ce": 2.5831472873687744,
+      "exploration": 0.0,
+      "training_window_tokens": 0,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        12
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.0
+      ],
+      "effective_experts": [
+        null
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 0,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.00689141801558435
+    },
+    "final": {
+      "arm": "hard",
+      "step": 30,
+      "validation_ce": 2.4895509481430054,
+      "exploration": 0.0,
+      "training_window_tokens": 320,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        10
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        2.236067771911621
+      ],
+      "effective_experts": [
+        2.0
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          960.0,
+          0.0,
+          960.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          30.0,
+          -1.0,
+          30.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          30.0,
+          0.0,
+          30.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.007308681961148977,
+          0.0,
+          0.007308681961148977,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 3,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.20496616031891066,
+            "relative_l2": 0.2996210533266837
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.20496616031891066,
+            "relative_l2": 0.2996210533266837
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.6624773144721985,
+          0.6624773144721985
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.17516488500405103
+    },
+    "test_ce": 2.497247099876404,
+    "reset_ablation": {
+      "baseline_probe_ce": 2.4672210216522217,
+      "targets": 16,
+      "expert_reset_ce_delta": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0007436275482177734,
+          0.0,
+          0.0007436275482177734,
+          0.0,
+          0.0
+        ]
+      ],
+      "interpretation": "Positive: resetting these learned weights hurts this fixed probe in the current model context. Negative: reset helps. Zero is not evidence of useful learning."
+    }
+  },
+  {
+    "arm": "noise",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "initial": {
+      "arm": "noise",
+      "step": 0,
+      "validation_ce": 2.5831472873687744,
+      "exploration": 0.0,
+      "training_window_tokens": 0,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        12
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.0
+      ],
+      "effective_experts": [
+        null
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 0,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.006021477980539203
+    },
+    "final": {
+      "arm": "noise",
+      "step": 30,
+      "validation_ce": 2.4895509481430054,
+      "exploration": 0.0,
+      "training_window_tokens": 320,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        10
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        2.236067771911621
+      ],
+      "effective_experts": [
+        2.0
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          960.0,
+          0.0,
+          960.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          30.0,
+          -1.0,
+          30.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          30.0,
+          0.0,
+          30.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.006812333129346371,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.007308681961148977,
+          0.0,
+          0.007308681961148977,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 3,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.20496616031891066,
+            "relative_l2": 0.2996210533266837
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.20496616031891066,
+            "relative_l2": 0.2996210533266837
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.6624773144721985,
+          0.6624773144721985
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.18538239898043685
+    },
+    "test_ce": 2.497247099876404,
+    "reset_ablation": {
+      "baseline_probe_ce": 2.4672210216522217,
+      "targets": 16,
+      "expert_reset_ce_delta": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0007436275482177734,
+          0.0,
+          0.0007436275482177734,
+          0.0,
+          0.0
+        ]
+      ],
+      "interpretation": "Positive: resetting these learned weights hurts this fixed probe in the current model context. Negative: reset helps. Zero is not evidence of useful learning."
+    }
+  },
+  {
+    "arm": "bias",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "initial": {
+      "arm": "bias",
+      "step": 0,
+      "validation_ce": 2.5831472873687744,
+      "exploration": 0.0,
+      "training_window_tokens": 0,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        12
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.0
+      ],
+      "effective_experts": [
+        null
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 0,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.00531017201137729
+    },
+    "final": {
+      "arm": "bias",
+      "step": 30,
+      "validation_ce": 2.4910258054733276,
+      "exploration": 0.0,
+      "training_window_tokens": 320,
+      "window_route_fractions": [
+        [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      ],
+      "window_zero_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.2828426957130432
+      ],
+      "effective_experts": [
+        11.486984252929688
+      ],
+      "cumulative_tokens": [
+        [
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          2.0,
+          2.0,
+          1.0,
+          1.0,
+          2.0,
+          2.0,
+          2.0,
+          1.0,
+          2.0,
+          1.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          27.0,
+          25.0,
+          30.0,
+          30.0,
+          25.0,
+          28.0,
+          29.0,
+          26.0,
+          28.0,
+          26.0,
+          27.0,
+          29.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.000959499622695148,
+          0.000997666036710143,
+          0.0009516092832200229,
+          0.0009516092832200229,
+          0.000997666036710143,
+          0.0009570432011969388,
+          0.0009419576963409781,
+          0.0010692208306863904,
+          0.0009570432011969388,
+          0.0010692208306863904,
+          0.000959499622695148,
+          0.0009419576963409781
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.005756997503340244,
+          0.0059859962202608585,
+          0.005709655582904816,
+          0.005709655582904816,
+          0.0059859962202608585,
+          0.005742259323596954,
+          0.0056517464108765125,
+          0.006415324751287699,
+          0.005742259323596954,
+          0.006415324751287699,
+          0.005756997503340244,
+          0.0056517464108765125
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0028385391924530268,
+          0.0028385391924530268,
+          0.0,
+          0.0030048128683120012,
+          0.0,
+          0.002746103098616004,
+          0.0030048128683120012,
+          0.002746103098616004,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 3,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.04134498632169088,
+            "relative_l2": 0.060438407648403525
+          },
+          {
+            "l2": 0.0387897483483173,
+            "relative_l2": 0.05670314182749281
+          },
+          {
+            "l2": 0.04358888163736744,
+            "relative_l2": 0.06371855046315768
+          },
+          {
+            "l2": 0.04358888163736744,
+            "relative_l2": 0.06371855046315768
+          },
+          {
+            "l2": 0.0387897483483173,
+            "relative_l2": 0.05670314182749281
+          },
+          {
+            "l2": 0.03931419969223368,
+            "relative_l2": 0.057469788691728
+          },
+          {
+            "l2": 0.03920811691369715,
+            "relative_l2": 0.05731471609927916
+          },
+          {
+            "l2": 0.03945327368675201,
+            "relative_l2": 0.057673088088384984
+          },
+          {
+            "l2": 0.03931419969223368,
+            "relative_l2": 0.057469788691728
+          },
+          {
+            "l2": 0.03945327368675201,
+            "relative_l2": 0.057673088088384984
+          },
+          {
+            "l2": 0.04134498632169088,
+            "relative_l2": 0.060438407648403525
+          },
+          {
+            "l2": 0.03920811691369715,
+            "relative_l2": 0.05731471609927916
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.18562178313732147,
+          0.159722238779068,
+          0.15068461000919342,
+          0.16803763806819916
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.1570736180001404
+    },
+    "test_ce": 2.4987452030181885,
+    "reset_ablation": {
+      "baseline_probe_ce": 2.468658924102783,
+      "targets": 16,
+      "expert_reset_ce_delta": [
+        [
+          0.0,
+          0.0,
+          6.413459777832031e-05,
+          6.413459777832031e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "interpretation": "Positive: resetting these learned weights hurts this fixed probe in the current model context. Negative: reset helps. Zero is not evidence of useful learning."
+    }
+  },
+  {
+    "arm": "family_bias",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "initial": {
+      "arm": "family_bias",
+      "step": 0,
+      "validation_ce": 2.5831472873687744,
+      "exploration": 0.0,
+      "training_window_tokens": 0,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        12
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.0
+      ],
+      "effective_experts": [
+        null
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 0,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.006485334015451372
+    },
+    "final": {
+      "arm": "family_bias",
+      "step": 30,
+      "validation_ce": 2.4910495281219482,
+      "exploration": 0.0,
+      "training_window_tokens": 320,
+      "window_route_fractions": [
+        [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.05000000074505806,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      ],
+      "window_zero_experts": [
+        0
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.2828426957130432
+      ],
+      "effective_experts": [
+        11.486984252929688
+      ],
+      "cumulative_tokens": [
+        [
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0,
+          160.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          2.0,
+          2.0,
+          1.0,
+          2.0,
+          2.0,
+          1.0,
+          1.0,
+          2.0,
+          2.0,
+          1.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          28.0,
+          30.0,
+          26.0,
+          28.0,
+          30.0,
+          26.0,
+          27.0,
+          29.0,
+          25.0,
+          27.0,
+          29.0,
+          25.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0009606547537259758,
+          0.0009782718261703849,
+          0.0010575498454272747,
+          0.0009606547537259758,
+          0.0009782718261703849,
+          0.0010575498454272747,
+          0.0009580451296642423,
+          0.0009592731948941946,
+          0.0009620928321965039,
+          0.0009580451296642423,
+          0.0009592731948941946,
+          0.0009620928321965039
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.005763928405940533,
+          0.005869631189852953,
+          0.006345299072563648,
+          0.005763928405940533,
+          0.005869631189852953,
+          0.006345299072563648,
+          0.005748271010816097,
+          0.005755639169365168,
+          0.005772557109594345,
+          0.005748271010816097,
+          0.005755639169365168,
+          0.005772557109594345
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0032343147322535515,
+          0.002476129215210676,
+          0.002861469052731991,
+          0.0032343147322535515,
+          0.002476129215210676,
+          0.002861469052731991,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 3,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.04113575112930228,
+            "relative_l2": 0.06013254609233524
+          },
+          {
+            "l2": 0.04052354467349113,
+            "relative_l2": 0.05923761815467894
+          },
+          {
+            "l2": 0.04305838790842796,
+            "relative_l2": 0.06294307079568116
+          },
+          {
+            "l2": 0.04113575112930228,
+            "relative_l2": 0.06013254609233524
+          },
+          {
+            "l2": 0.04052354467349113,
+            "relative_l2": 0.05923761815467894
+          },
+          {
+            "l2": 0.04305838790842796,
+            "relative_l2": 0.06294307079568116
+          },
+          {
+            "l2": 0.04003468349980506,
+            "relative_l2": 0.058522997265248025
+          },
+          {
+            "l2": 0.04141524184632335,
+            "relative_l2": 0.060541107695375414
+          },
+          {
+            "l2": 0.040105134249962635,
+            "relative_l2": 0.05862598269434044
+          },
+          {
+            "l2": 0.04003468349980506,
+            "relative_l2": 0.058522997265248025
+          },
+          {
+            "l2": 0.04141524184632335,
+            "relative_l2": 0.060541107695375414
+          },
+          {
+            "l2": 0.040105134249962635,
+            "relative_l2": 0.05862598269434044
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.1751204878091812,
+          0.1751204878091812,
+          0.16187790036201477,
+          0.16187790036201477
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              5,
+              5,
+              5
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.17609805599204265
+    },
+    "test_ce": 2.4988207817077637,
+    "reset_ablation": {
+      "baseline_probe_ce": 2.468670606613159,
+      "targets": 16,
+      "expert_reset_ce_delta": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          5.793571472167969e-05,
+          0.0,
+          0.0,
+          5.793571472167969e-05
+        ]
+      ],
+      "interpretation": "Positive: resetting these learned weights hurts this fixed probe in the current model context. Negative: reset helps. Zero is not evidence of useful learning."
+    }
+  },
+  {
+    "arm": "warmup",
+    "parameters": {
+      "total": 20080,
+      "active_parameter_convention": 4720,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "initial": {
+      "arm": "warmup",
+      "step": 0,
+      "validation_ce": 2.5831472873687744,
+      "exploration": 1.0,
+      "training_window_tokens": 0,
+      "window_route_fractions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        12
+      ],
+      "hard_probe_zero_experts": [
+        10
+      ],
+      "window_load_cv": [
+        0.0
+      ],
+      "effective_experts": [
+        null
+      ],
+      "cumulative_tokens": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "update_samples": 0,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          },
+          {
+            "l2": 0.0,
+            "relative_l2": 0.0
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "state_matrices": 0,
+            "matrix_steps": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.008395908982492983
+    },
+    "final": {
+      "arm": "warmup",
+      "step": 30,
+      "validation_ce": 2.4895399808883667,
+      "exploration": 0.0,
+      "training_window_tokens": 320,
+      "window_route_fractions": [
+        [
+          0.26249998807907104,
+          0.0,
+          0.18593749403953552,
+          0.0031250000465661287,
+          0.17656250298023224,
+          0.06718750298023224,
+          0.1015625,
+          0.012500000186264515,
+          0.0031250000465661287,
+          0.12187500298023224,
+          0.06562499701976776,
+          0.0
+        ]
+      ],
+      "window_zero_experts": [
+        2
+      ],
+      "hard_probe_zero_experts": [
+        5
+      ],
+      "window_load_cv": [
+        1.0128278732299805
+      ],
+      "effective_experts": [
+        6.752274513244629
+      ],
+      "cumulative_tokens": [
+        [
+          449.0,
+          50.0,
+          333.0,
+          58.0,
+          284.0,
+          122.0,
+          145.0,
+          64.0,
+          76.0,
+          151.0,
+          146.0,
+          42.0
+        ]
+      ],
+      "window_positive_task_gradient_steps": [
+        [
+          10.0,
+          0.0,
+          10.0,
+          1.0,
+          10.0,
+          10.0,
+          10.0,
+          4.0,
+          2.0,
+          10.0,
+          10.0,
+          0.0
+        ]
+      ],
+      "last_token_step": [
+        [
+          30.0,
+          10.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          28.0,
+          23.0,
+          30.0,
+          30.0,
+          19.0
+        ]
+      ],
+      "positive_task_gradient_steps": [
+        [
+          30.0,
+          10.0,
+          30.0,
+          16.0,
+          30.0,
+          29.0,
+          30.0,
+          19.0,
+          20.0,
+          28.0,
+          30.0,
+          11.0
+        ]
+      ],
+      "mean_task_gradient_norm": [
+        [
+          0.004277186002582312,
+          0.000673434347845614,
+          0.003259363118559122,
+          0.0008680819300934672,
+          0.003143416019156575,
+          0.0025205344427376986,
+          0.002589821582660079,
+          0.0010023266077041626,
+          0.0013477773172780871,
+          0.002593227894976735,
+          0.0019724213052541018,
+          0.0006138024036772549
+        ]
+      ],
+      "mean_task_gradient_norm_when_nonzero": [
+        [
+          0.004277186002582312,
+          0.00202030292712152,
+          0.003259363118559122,
+          0.0016276536043733358,
+          0.003143416019156575,
+          0.002607449423521757,
+          0.002589821582660079,
+          0.0015826210146769881,
+          0.0020216661505401134,
+          0.0027784586418420076,
+          0.0019724213052541018,
+          0.0016740065766498446
+        ]
+      ],
+      "mean_decay_removed_update_norm": [
+        [
+          0.006474203895777464,
+          0.0015524295158684254,
+          0.006219003349542618,
+          0.0028736356180161238,
+          0.006083472166210413,
+          0.005237959325313568,
+          0.005537091288715601,
+          0.0015698513016104698,
+          0.0015351352049037814,
+          0.005691888276487589,
+          0.004928916227072477,
+          0.0
+        ]
+      ],
+      "update_samples": 3,
+      "weight_drift": [
+        [
+          {
+            "l2": 0.1679108736218788,
+            "relative_l2": 0.24545336040502153
+          },
+          {
+            "l2": 0.05092266056117512,
+            "relative_l2": 0.07443912288641713
+          },
+          {
+            "l2": 0.15992718982204338,
+            "relative_l2": 0.2337827522138353
+          },
+          {
+            "l2": 0.07291862463522024,
+            "relative_l2": 0.10659298630732077
+          },
+          {
+            "l2": 0.15206867534129523,
+            "relative_l2": 0.2222951174616341
+          },
+          {
+            "l2": 0.12555398779353608,
+            "relative_l2": 0.18353575055283938
+          },
+          {
+            "l2": 0.13101936815234116,
+            "relative_l2": 0.1915250840964266
+          },
+          {
+            "l2": 0.08013108293396747,
+            "relative_l2": 0.11713621134106819
+          },
+          {
+            "l2": 0.0793936173948314,
+            "relative_l2": 0.1160581787463985
+          },
+          {
+            "l2": 0.13041667998471765,
+            "relative_l2": 0.19064407006303727
+          },
+          {
+            "l2": 0.12295549837214853,
+            "relative_l2": 0.17973725944443883
+          },
+          {
+            "l2": 0.05349977719371822,
+            "relative_l2": 0.0782063710935693
+          }
+        ]
+      ],
+      "family_output_relative_rms": [
+        [
+          0.6511140465736389,
+          0.7826104164123535,
+          0.6233939528465271,
+          0.6457093358039856
+        ]
+      ],
+      "expert_optimizer_state": [
+        [
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              10,
+              10,
+              10
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              16,
+              16,
+              16
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              29,
+              29,
+              29
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              19,
+              19,
+              19
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              20,
+              20,
+              20
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              28,
+              28,
+              28
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              30,
+              30,
+              30
+            ]
+          },
+          {
+            "state_matrices": 3,
+            "matrix_steps": [
+              11,
+              11,
+              11
+            ]
+          }
+        ]
+      ],
+      "elapsed_seconds_including_diagnostics": 0.3071541039971635
+    },
+    "test_ce": 2.497260808944702,
+    "reset_ablation": {
+      "baseline_probe_ce": 2.4671406745910645,
+      "targets": 16,
+      "expert_reset_ce_delta": [
+        [
+          0.00047898292541503906,
+          0.0,
+          0.00041103363037109375,
+          0.0,
+          0.0001220703125,
+          0.00016927719116210938,
+          0.0,
+          7.62939453125e-06,
+          0.0,
+          0.0003948211669921875,
+          9.5367431640625e-06,
+          0.0
+        ]
+      ],
+      "interpretation": "Positive: resetting these learned weights hurts this fixed probe in the current model context. Negative: reset helps. Zero is not evidence of useful learning."
+    }
+  }
+]

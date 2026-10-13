@@ -1,0 +1,11 @@
+{
+  "source": "User-pasted Colab recovery output; not run by local agent",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "seed": 17,
+  "source_run": "gpt-colab-diagnostic-20261012-175748-900661",
+  "failed_run": "gpt-colab-recovered-20261012-175909-501259",
+  "dense_pretraining": "restored successfully",
+  "moe_continuation": "not reached",
+  "fp64_reference": "not present in supplied output"
+}

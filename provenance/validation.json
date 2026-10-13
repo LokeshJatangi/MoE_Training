@@ -1,0 +1,25 @@
+{
+  "unit_tests": {
+    "main": 26,
+    "routing_followup": 4,
+    "passed": true
+  },
+  "source_audits": {
+    "original_snapshots_verified": 34,
+    "completed_studies_source_entries": 21,
+    "sanitized_snapshots_verified": true
+  },
+  "checkpoint_audit": "All five completed follow-up checkpoints and shared parent verified against external originals; no checkpoints included.",
+  "metadata_only_audit": "Passed without checkpoint access. Derived report marks checkpoint state as historical evidence.",
+  "layout": {
+    "notebooks": 7,
+    "compiled_notebook_cells": 43,
+    "compiled_python_files": 93,
+    "numeric_files_unchanged": 129,
+    "unresolved_links": []
+  },
+  "duplicate_copies_replaced_with_internal_links": 89,
+  "no_new_training": true,
+  "legacy_text_scan": "All repository paths and file bytes passed case-insensitive scan.",
+  "git_whitespace_check": "Passed with explicit rules preserving generated SVG formatting, CSV line endings, and original corpus/log bytes."
+}

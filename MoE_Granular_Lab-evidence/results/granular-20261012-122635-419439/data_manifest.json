@@ -1,0 +1,19 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "shuffle_seed": 17,
+  "shuffle_buffer": 2000,
+  "train_stories": 12000,
+  "validation_stories": 1200,
+  "test_stories": 1200,
+  "token_counts": {
+    "train": 2690332,
+    "validation": 250020,
+    "test": 250173
+  },
+  "vocab_size": 4096,
+  "tokenizer_sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093",
+  "packed_policy": "concatenate documents with EOS; causal attention may cross EOS",
+  "deduplication": "exact cross-split document hashing only; not near-duplicate decontamination",
+  "token_array_sha256": "ffe76e4ff906b4bf2be7d0abd5ce61dd74eb497d78a2d37e614f8ad153e164bc"
+}

@@ -1,0 +1,29 @@
+{
+  "model": {
+    "context": 128,
+    "layers": 4,
+    "width": 192,
+    "heads": 6,
+    "intermediate": 384,
+    "experts": 4,
+    "top_k": 1
+  },
+  "conversion": {
+    "partitions": 4,
+    "replicas": 4,
+    "top_k": 4
+  },
+  "batch_size": 4,
+  "eval_sequences": 32,
+  "seeds": [
+    17
+  ],
+  "dense_steps": 500,
+  "continuation_steps": 500,
+  "dense_lr": 0.0006,
+  "continuation_lr": 0.0003,
+  "balance_coefficient": 0.01,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "eval_every": 50
+}

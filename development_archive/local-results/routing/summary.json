@@ -1,0 +1,374 @@
+[
+  {
+    "seed": 17,
+    "dense_parameters": 67665,
+    "moe_total_parameters": 274824,
+    "moe_active_parameters_per_target": 139494,
+    "conversion_max_logit_error": 9.5367431640625e-07,
+    "initial": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.172940611839294,
+      "validation_ce": 4.176090717315674,
+      "elapsed_seconds_including_eval": 0.035451011994155124
+    },
+    "dense_end": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 800,
+      "global_step": 800,
+      "targets_seen": 204800,
+      "train_ce": 2.2567485868930817,
+      "validation_ce": 2.34296515583992,
+      "elapsed_seconds_including_eval": 2.9253793169918936,
+      "batch_ce": 2.295377254486084,
+      "objective": 2.295377254486084,
+      "grad_norm": 0.23111197352409363
+    },
+    "dense_pretrain_timing": {
+      "seconds_including_eval_and_save_excluded": 2.9254547610180452,
+      "target_tokens_per_second_including_eval": 70006.20988195713,
+      "resume_next_step_max_parameter_error": 0.0
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.2567485868930817,
+          "validation_ce": 2.34296515583992,
+          "elapsed_seconds_including_eval": 0.03319628999452107
+        },
+        "final": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.1444091498851776,
+          "validation_ce": 2.2396873235702515,
+          "elapsed_seconds_including_eval": 2.6584874379914254,
+          "batch_ce": 2.2105774879455566,
+          "objective": 2.2105774879455566,
+          "grad_norm": 0.22409440577030182
+        },
+        "test_ce": 2.25552099943161,
+        "seconds_including_eval_and_save_excluded": 2.6585487549891695,
+        "target_tokens_per_second_including_eval": 77034.50975486598,
+        "resume_next_step_max_parameter_error": 0.0
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.2567485868930817,
+          "validation_ce": 2.3429651260375977,
+          "elapsed_seconds_including_eval": 0.07000641399645247,
+          "expert_fraction": [
+            0.1627197265625,
+            0.2535400390625,
+            0.2994384765625,
+            0.2843017578125
+          ],
+          "router_entropy": 1.383693978190422
+        },
+        "final": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.0595796555280685,
+          "validation_ce": 2.1576578319072723,
+          "elapsed_seconds_including_eval": 6.681228442990687,
+          "batch_ce": 2.149423122406006,
+          "objective": 2.1594998836517334,
+          "grad_norm": 0.1798248440027237,
+          "expert_fraction": [
+            0.232421875,
+            0.26318359375,
+            0.250244140625,
+            0.254150390625
+          ],
+          "router_entropy": 1.0935775190591812
+        },
+        "test_ce": 2.1776985824108124,
+        "seconds_including_eval_and_save_excluded": 6.681301953009097,
+        "target_tokens_per_second_including_eval": 30652.708325472857,
+        "resume_next_step_max_parameter_error": 0.0
+      }
+    },
+    "expert_weight_change_l2": [
+      61.08518600463867,
+      62.29344940185547,
+      57.30344772338867,
+      59.83232116699219
+    ],
+    "expert_pair_distance_l2": 42.7392463684082,
+    "acceptance": {
+      "dense_train_loss_drops": true,
+      "dense_validation_loss_drops": true,
+      "moe_train_loss_drops": true,
+      "moe_validation_loss_drops": true,
+      "all_experts_updated": true,
+      "conversion_preserved": true
+    }
+  },
+  {
+    "seed": 42,
+    "dense_parameters": 67665,
+    "moe_total_parameters": 274824,
+    "moe_active_parameters_per_target": 139494,
+    "conversion_max_logit_error": 9.5367431640625e-07,
+    "initial": {
+      "seed": 42,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.1775320172309875,
+      "validation_ce": 4.176660418510437,
+      "elapsed_seconds_including_eval": 0.027301213005557656
+    },
+    "dense_end": {
+      "seed": 42,
+      "phase": "dense_pretrain",
+      "step": 800,
+      "global_step": 800,
+      "targets_seen": 204800,
+      "train_ce": 2.2647863030433655,
+      "validation_ce": 2.337062329053879,
+      "elapsed_seconds_including_eval": 2.763060361990938,
+      "batch_ce": 2.1153769493103027,
+      "objective": 2.1153769493103027,
+      "grad_norm": 0.2156200110912323
+    },
+    "dense_pretrain_timing": {
+      "seconds_including_eval_and_save_excluded": 2.763191621983424,
+      "target_tokens_per_second_including_eval": 74117.19055987663,
+      "resume_next_step_max_parameter_error": 0.0
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 42,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.2647863030433655,
+          "validation_ce": 2.337062329053879,
+          "elapsed_seconds_including_eval": 0.037172784010181203
+        },
+        "final": {
+          "seed": 42,
+          "phase": "dense_control",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.1449111700057983,
+          "validation_ce": 2.2395968437194824,
+          "elapsed_seconds_including_eval": 2.7603384949907195,
+          "batch_ce": 2.106680393218994,
+          "objective": 2.106680393218994,
+          "grad_norm": 0.22172370553016663
+        },
+        "test_ce": 2.2589306235313416,
+        "seconds_including_eval_and_save_excluded": 2.760405782988528,
+        "target_tokens_per_second_including_eval": 74191.99063489687,
+        "resume_next_step_max_parameter_error": 0.0
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 42,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.2647863030433655,
+          "validation_ce": 2.337062329053879,
+          "elapsed_seconds_including_eval": 0.08059707301435992,
+          "expert_fraction": [
+            0.2579345703125,
+            0.3614501953125,
+            0.2257080078125,
+            0.1549072265625
+          ],
+          "router_entropy": 1.3836366385221481
+        },
+        "final": {
+          "seed": 42,
+          "phase": "moe_continue",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.061062514781952,
+          "validation_ce": 2.1451829969882965,
+          "elapsed_seconds_including_eval": 6.605499567987863,
+          "batch_ce": 2.020961284637451,
+          "objective": 2.030973196029663,
+          "grad_norm": 0.180869922041893,
+          "expert_fraction": [
+            0.2625732421875,
+            0.223388671875,
+            0.2333984375,
+            0.2806396484375
+          ],
+          "router_entropy": 1.0231535136699677
+        },
+        "test_ce": 2.1812275648117065,
+        "seconds_including_eval_and_save_excluded": 6.6055681289872155,
+        "target_tokens_per_second_including_eval": 31004.1461992158,
+        "resume_next_step_max_parameter_error": 0.0
+      }
+    },
+    "expert_weight_change_l2": [
+      61.3037109375,
+      58.63808059692383,
+      59.991519927978516,
+      63.43589401245117
+    ],
+    "expert_pair_distance_l2": 40.11457061767578,
+    "acceptance": {
+      "dense_train_loss_drops": true,
+      "dense_validation_loss_drops": true,
+      "moe_train_loss_drops": true,
+      "moe_validation_loss_drops": true,
+      "all_experts_updated": true,
+      "conversion_preserved": true
+    }
+  },
+  {
+    "seed": 123,
+    "dense_parameters": 67665,
+    "moe_total_parameters": 274824,
+    "moe_active_parameters_per_target": 139494,
+    "conversion_max_logit_error": 9.5367431640625e-07,
+    "initial": {
+      "seed": 123,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.191272556781769,
+      "validation_ce": 4.190873205661774,
+      "elapsed_seconds_including_eval": 0.029173493006965145
+    },
+    "dense_end": {
+      "seed": 123,
+      "phase": "dense_pretrain",
+      "step": 800,
+      "global_step": 800,
+      "targets_seen": 204800,
+      "train_ce": 2.263569712638855,
+      "validation_ce": 2.3350818157196045,
+      "elapsed_seconds_including_eval": 3.0303080279845744,
+      "batch_ce": 2.3165218830108643,
+      "objective": 2.3165218830108643,
+      "grad_norm": 0.23115865886211395
+    },
+    "dense_pretrain_timing": {
+      "seconds_including_eval_and_save_excluded": 3.030381767981453,
+      "target_tokens_per_second_including_eval": 67582.2439812321,
+      "resume_next_step_max_parameter_error": 0.0
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 123,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.263569712638855,
+          "validation_ce": 2.3350818157196045,
+          "elapsed_seconds_including_eval": 0.037734293000539765
+        },
+        "final": {
+          "seed": 123,
+          "phase": "dense_control",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.1435022056102753,
+          "validation_ce": 2.2374640107154846,
+          "elapsed_seconds_including_eval": 2.9998666669998784,
+          "batch_ce": 2.2318029403686523,
+          "objective": 2.2318029403686523,
+          "grad_norm": 0.2289017289876938
+        },
+        "test_ce": 2.2470410466194153,
+        "seconds_including_eval_and_save_excluded": 2.999947500997223,
+        "target_tokens_per_second_including_eval": 68267.8613315472,
+        "resume_next_step_max_parameter_error": 0.0
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 123,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 800,
+          "targets_seen": 204800,
+          "train_ce": 2.263569712638855,
+          "validation_ce": 2.3350818753242493,
+          "elapsed_seconds_including_eval": 0.07459317598841153,
+          "expert_fraction": [
+            0.2149658203125,
+            0.2962646484375,
+            0.2978515625,
+            0.19091796875
+          ],
+          "router_entropy": 1.3839601576328278
+        },
+        "final": {
+          "seed": 123,
+          "phase": "moe_continue",
+          "step": 800,
+          "global_step": 1600,
+          "targets_seen": 409600,
+          "train_ce": 2.0546322017908096,
+          "validation_ce": 2.1436364948749542,
+          "elapsed_seconds_including_eval": 6.76953832100844,
+          "batch_ce": 2.149806022644043,
+          "objective": 2.1598663330078125,
+          "grad_norm": 0.18390491604804993,
+          "expert_fraction": [
+            0.2542724609375,
+            0.2271728515625,
+            0.2110595703125,
+            0.3074951171875
+          ],
+          "router_entropy": 1.0529200434684753
+        },
+        "test_ce": 2.1690302789211273,
+        "seconds_including_eval_and_save_excluded": 6.769616739999037,
+        "target_tokens_per_second_including_eval": 30252.820486855086,
+        "resume_next_step_max_parameter_error": 0.0
+      }
+    },
+    "expert_weight_change_l2": [
+      61.92554473876953,
+      60.02989196777344,
+      55.624202728271484,
+      66.71224975585938
+    ],
+    "expert_pair_distance_l2": 42.072486877441406,
+    "acceptance": {
+      "dense_train_loss_drops": true,
+      "dense_validation_loss_drops": true,
+      "moe_train_loss_drops": true,
+      "moe_validation_loss_drops": true,
+      "all_experts_updated": true,
+      "conversion_preserved": true
+    }
+  }
+]

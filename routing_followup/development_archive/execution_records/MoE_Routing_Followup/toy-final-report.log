@@ -1,0 +1,13 @@
+# Hard-routing repair and expert-learning measurements
+
+**CPU synthetic execution smoke; not language-training evidence.**
+
+| Arm | Start / final validation CE | Lifetime zero experts | Final window zero experts | Static probe zero experts | Zero CE-gradient experts | No Adam state | Positive reset deltas (>1e-6) |
+|---|---|---|---|---|---|---|---|
+| hard | 2.583147 / 2.489551 | 10 | 10 | 10 | 10 | 10 | 2 |
+| noise | 2.583147 / 2.489551 | 10 | 10 | 10 | 10 | 10 | 2 |
+| bias | 2.583147 / 2.491026 | 0 | 0 | 10 | 0 | 0 | 2 |
+| family_bias | 2.583147 / 2.491050 | 0 | 0 | 10 | 0 | 0 | 2 |
+| warmup | 2.583147 / 2.489540 | 0 | 2 | 5 | 0 | 0 | 7 |
+
+![Routing/loss comparison](routing_curves.png)

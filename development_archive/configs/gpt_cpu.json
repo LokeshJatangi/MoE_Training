@@ -1,0 +1,14 @@
+{
+  "model": {"context": 64, "layers": 2, "width": 64, "heads": 4, "intermediate": 128, "experts": 4, "top_k": 2},
+  "batch_size": 16,
+  "dense_steps": 300,
+  "continuation_steps": 300,
+  "dense_lr": 0.001,
+  "continuation_lr": 0.0005,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "balance_coefficient": 0.01,
+  "eval_every": 50,
+  "eval_sequences": 32,
+  "seeds": [17]
+}

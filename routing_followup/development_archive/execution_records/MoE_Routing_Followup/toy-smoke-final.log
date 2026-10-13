@@ -1,0 +1,24 @@
+{"arm": "hard", "step": 0, "validation_ce": 2.5831472873687744, "window_zero_experts": [12], "hard_probe_zero_experts": [10], "effective_experts": [null]}
+{"arm": "hard", "step": 10, "validation_ce": 2.549840211868286, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+{"arm": "hard", "step": 20, "validation_ce": 2.5207704305648804, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+{"arm": "hard", "step": 30, "validation_ce": 2.4895509481430054, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+{"arm": "noise", "step": 0, "validation_ce": 2.5831472873687744, "window_zero_experts": [12], "hard_probe_zero_experts": [10], "effective_experts": [null]}
+{"arm": "noise", "step": 10, "validation_ce": 2.549840211868286, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+{"arm": "noise", "step": 20, "validation_ce": 2.5207704305648804, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+{"arm": "noise", "step": 30, "validation_ce": 2.4895509481430054, "window_zero_experts": [10], "hard_probe_zero_experts": [10], "effective_experts": [2.0]}
+routing_followup/src/improve_routing.py:131: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  'noise_std_by_layer':[float(cfg['noise_fraction']*source.ffn.router.weight.square().mean().sqrt()) if arm=='noise' else 0. for source,b in zip(parent.blocks,model.blocks)],
+{"arm": "bias", "step": 0, "validation_ce": 2.5831472873687744, "window_zero_experts": [12], "hard_probe_zero_experts": [10], "effective_experts": [null]}
+{"arm": "bias", "step": 10, "validation_ce": 2.5502883195877075, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486981391906738]}
+{"arm": "bias", "step": 20, "validation_ce": 2.5215712785720825, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486981391906738]}
+{"arm": "bias", "step": 30, "validation_ce": 2.4910258054733276, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486984252929688]}
+{"arm": "family_bias", "step": 0, "validation_ce": 2.5831472873687744, "window_zero_experts": [12], "hard_probe_zero_experts": [10], "effective_experts": [null]}
+{"arm": "family_bias", "step": 10, "validation_ce": 2.5502941608428955, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486984252929688]}
+{"arm": "family_bias", "step": 20, "validation_ce": 2.5216097831726074, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486981391906738]}
+{"arm": "family_bias", "step": 30, "validation_ce": 2.4910495281219482, "window_zero_experts": [0], "hard_probe_zero_experts": [10], "effective_experts": [11.486984252929688]}
+{"arm": "warmup", "step": 0, "validation_ce": 2.5831472873687744, "window_zero_experts": [12], "hard_probe_zero_experts": [10], "effective_experts": [null]}
+{"arm": "warmup", "step": 10, "validation_ce": 2.5499513149261475, "window_zero_experts": [0], "hard_probe_zero_experts": [2], "effective_experts": [11.607925415039062]}
+{"arm": "warmup", "step": 20, "validation_ce": 2.5209015607833862, "window_zero_experts": [1], "hard_probe_zero_experts": [4], "effective_experts": [6.856498718261719]}
+{"arm": "warmup", "step": 30, "validation_ce": 2.4895399808883667, "window_zero_experts": [2], "hard_probe_zero_experts": [5], "effective_experts": [6.752274513244629]}
+Completed: ['hard', 'noise', 'bias', 'family_bias', 'warmup']

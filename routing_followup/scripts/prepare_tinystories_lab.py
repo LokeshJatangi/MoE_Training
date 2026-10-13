@@ -1,0 +1,1 @@
+../../scripts/prepare_tinystories_lab.py

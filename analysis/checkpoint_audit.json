@@ -1,0 +1,558 @@
+{
+  "gpt": [
+    {
+      "file": "MoE_Training-results/checkpoints/gpt-colab-recovered-20261012-180346-953876/17/dense_control.pt",
+      "sha256": "25286ba2109ea370a1788e93d39f683cadf92aa203d05f19d4ca040ab6aba0f4",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 40,
+      "optimizer_group_parameters": 40,
+      "model_state_tensor_bytes": 2762752,
+      "adam_moment_bytes": 5458944,
+      "optimizer_steps": [
+        1000.0
+      ],
+      "phase": "dense_control",
+      "step": 1000
+    },
+    {
+      "file": "MoE_Training-results/checkpoints/gpt-colab-recovered-20261012-180346-953876/17/dense_pretrain.pt",
+      "sha256": "ab0791c9e7b4324ea047982969b41967bdf560b2905457ed210cd43ee8cda457",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0006,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 40,
+      "optimizer_group_parameters": 40,
+      "model_state_tensor_bytes": 2762752,
+      "adam_moment_bytes": 5458944,
+      "optimizer_steps": [
+        1000.0
+      ],
+      "phase": "dense_pretrain",
+      "step": 1000
+    },
+    {
+      "file": "MoE_Training-results/checkpoints/gpt-colab-recovered-20261012-180346-953876/17/moe_continue.pt",
+      "sha256": "9f0730107bbc13ad8f2ad62070be81615ff39eb4ed9f29558661ac26a27ac69c",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 80,
+      "optimizer_group_parameters": 80,
+      "model_state_tensor_bytes": 7489536,
+      "adam_moment_bytes": 14912512,
+      "optimizer_steps": [
+        1000.0
+      ],
+      "phase": "moe_continue",
+      "step": 1000
+    },
+    {
+      "file": "MoE_Training-results/checkpoints/gpt-colab-recovered-20261012-180346-953876/17/moe_converted.pt",
+      "sha256": "73703260b88713d4bd178a4f93100ec6607a73cdb2d80447d5aac7214aafdd8b",
+      "checkpoint_keys": [
+        "model",
+        "config",
+        "seed"
+      ],
+      "optimizer_group": {},
+      "optimizer_state_tensors": 0,
+      "optimizer_group_parameters": 0,
+      "model_state_tensor_bytes": 7489536,
+      "adam_moment_bytes": 0,
+      "optimizer_steps": [],
+      "phase": null,
+      "step": null
+    }
+  ],
+  "granular": [
+    {
+      "file": "MoE_Granular_Lab-evidence/checkpoints/granular-20261012-122635-419439/17/dense_control.pt",
+      "sha256": "c6d9aa676d618df3bb7d271b79c83b170058d470886a3c76b9cbcc9178175726",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 40,
+      "optimizer_group_parameters": 40,
+      "model_state_tensor_bytes": 12301824,
+      "adam_moment_bytes": 18312192,
+      "optimizer_steps": [
+        500.0
+      ],
+      "phase": "dense_control",
+      "step": 500
+    },
+    {
+      "file": "MoE_Granular_Lab-evidence/checkpoints/granular-20261012-122635-419439/17/dense_pretrain.pt",
+      "sha256": "89c766f147c1937e6312816360648d531a33e26462020955090fcd086a5b3041",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0006,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 40,
+      "optimizer_group_parameters": 40,
+      "model_state_tensor_bytes": 12301824,
+      "adam_moment_bytes": 18312192,
+      "optimizer_steps": [
+        500.0
+      ],
+      "phase": "dense_pretrain",
+      "step": 500
+    },
+    {
+      "file": "MoE_Granular_Lab-evidence/checkpoints/granular-20261012-122635-419439/17/full_copy.pt",
+      "sha256": "ae664c18c7e9fab51aae2e3e23b2be6dd8966922a39bc67395af496861c1d8f6",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 80,
+      "optimizer_group_parameters": 80,
+      "model_state_tensor_bytes": 22930944,
+      "adam_moment_bytes": 39570432,
+      "optimizer_steps": [
+        500.0
+      ],
+      "phase": "full_copy",
+      "step": 500
+    },
+    {
+      "file": "MoE_Granular_Lab-evidence/checkpoints/granular-20261012-122635-419439/17/granular.pt",
+      "sha256": "f9e35400de4828439fd154fd674dd6098b697e2a216e7190c1bff29e4a3b1db3",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "seed",
+        "phase",
+        "step"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 224,
+      "optimizer_group_parameters": 224,
+      "model_state_tensor_bytes": 22967808,
+      "adam_moment_bytes": 39644160,
+      "optimizer_steps": [
+        500.0
+      ],
+      "phase": "granular",
+      "step": 500
+    }
+  ],
+  "clone": [
+    {
+      "file": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/E12-anneal.pt",
+      "sha256": "be696417b59d7516c3eab1eebcfbddc5266b4c8bf299254a89c6dabd3ccd2122",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "expert_count",
+        "arm",
+        "step",
+        "switch_step",
+        "routing_rng",
+        "rolling_counts",
+        "cumulative_routings"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 176,
+      "optimizer_group_parameters": 176,
+      "model_state_tensor_bytes": 51267264,
+      "adam_moment_bytes": 96242688,
+      "optimizer_steps": [
+        738.0,
+        741.0,
+        742.0,
+        744.0,
+        747.0,
+        749.0,
+        750.0
+      ],
+      "phase": null,
+      "step": 750,
+      "parameters_without_adam_state": [],
+      "cumulative_zero_expert_indices": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "minimum_cumulative_routings": 28743.0
+    },
+    {
+      "file": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/E12-hard.pt",
+      "sha256": "d0eb9b042a94364d862ffc25c4085ba94c8332c73f4428d9650090e644e817ed",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "expert_count",
+        "arm",
+        "step",
+        "switch_step",
+        "routing_rng",
+        "rolling_counts",
+        "cumulative_routings"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 128,
+      "optimizer_group_parameters": 176,
+      "model_state_tensor_bytes": 51267264,
+      "adam_moment_bytes": 67931136,
+      "optimizer_steps": [
+        750.0
+      ],
+      "phase": null,
+      "step": 750,
+      "parameters_without_adam_state": [
+        "blocks.0.ffn.experts.2.gate.weight",
+        "blocks.0.ffn.experts.2.up.weight",
+        "blocks.0.ffn.experts.2.down.weight",
+        "blocks.0.ffn.experts.5.gate.weight",
+        "blocks.0.ffn.experts.5.up.weight",
+        "blocks.0.ffn.experts.5.down.weight",
+        "blocks.0.ffn.experts.8.gate.weight",
+        "blocks.0.ffn.experts.8.up.weight",
+        "blocks.0.ffn.experts.8.down.weight",
+        "blocks.0.ffn.experts.11.gate.weight",
+        "blocks.0.ffn.experts.11.up.weight",
+        "blocks.0.ffn.experts.11.down.weight",
+        "blocks.1.ffn.experts.2.gate.weight",
+        "blocks.1.ffn.experts.2.up.weight",
+        "blocks.1.ffn.experts.2.down.weight",
+        "blocks.1.ffn.experts.5.gate.weight",
+        "blocks.1.ffn.experts.5.up.weight",
+        "blocks.1.ffn.experts.5.down.weight",
+        "blocks.1.ffn.experts.8.gate.weight",
+        "blocks.1.ffn.experts.8.up.weight",
+        "blocks.1.ffn.experts.8.down.weight",
+        "blocks.1.ffn.experts.11.gate.weight",
+        "blocks.1.ffn.experts.11.up.weight",
+        "blocks.1.ffn.experts.11.down.weight",
+        "blocks.2.ffn.experts.2.gate.weight",
+        "blocks.2.ffn.experts.2.up.weight",
+        "blocks.2.ffn.experts.2.down.weight",
+        "blocks.2.ffn.experts.5.gate.weight",
+        "blocks.2.ffn.experts.5.up.weight",
+        "blocks.2.ffn.experts.5.down.weight",
+        "blocks.2.ffn.experts.8.gate.weight",
+        "blocks.2.ffn.experts.8.up.weight",
+        "blocks.2.ffn.experts.8.down.weight",
+        "blocks.2.ffn.experts.11.gate.weight",
+        "blocks.2.ffn.experts.11.up.weight",
+        "blocks.2.ffn.experts.11.down.weight",
+        "blocks.3.ffn.experts.2.gate.weight",
+        "blocks.3.ffn.experts.2.up.weight",
+        "blocks.3.ffn.experts.2.down.weight",
+        "blocks.3.ffn.experts.5.gate.weight",
+        "blocks.3.ffn.experts.5.up.weight",
+        "blocks.3.ffn.experts.5.down.weight",
+        "blocks.3.ffn.experts.8.gate.weight",
+        "blocks.3.ffn.experts.8.up.weight",
+        "blocks.3.ffn.experts.8.down.weight",
+        "blocks.3.ffn.experts.11.gate.weight",
+        "blocks.3.ffn.experts.11.up.weight",
+        "blocks.3.ffn.experts.11.down.weight"
+      ],
+      "cumulative_zero_expert_indices": [
+        [
+          2,
+          5,
+          8,
+          11
+        ],
+        [
+          2,
+          5,
+          8,
+          11
+        ],
+        [
+          2,
+          5,
+          8,
+          11
+        ],
+        [
+          2,
+          5,
+          8,
+          11
+        ]
+      ],
+      "minimum_cumulative_routings": 0.0
+    },
+    {
+      "file": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/E12-warmup.pt",
+      "sha256": "af7d6eab6d45e2e24e57e6238d7fadedf72d0aca28006406db25c9e8cf9c12b4",
+      "checkpoint_keys": [
+        "model",
+        "optimizer",
+        "sampler_rng",
+        "torch_rng",
+        "cuda_rng",
+        "config",
+        "expert_count",
+        "arm",
+        "step",
+        "switch_step",
+        "routing_rng",
+        "rolling_counts",
+        "cumulative_routings"
+      ],
+      "optimizer_group": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.01,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "decoupled_weight_decay": true
+      },
+      "optimizer_state_tensors": 176,
+      "optimizer_group_parameters": 176,
+      "model_state_tensor_bytes": 51267264,
+      "adam_moment_bytes": 96242688,
+      "optimizer_steps": [
+        620.0,
+        655.0,
+        694.0,
+        719.0,
+        744.0,
+        749.0,
+        750.0
+      ],
+      "phase": null,
+      "step": 750,
+      "parameters_without_adam_state": [],
+      "cumulative_zero_expert_indices": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "minimum_cumulative_routings": 14403.0
+    },
+    {
+      "file": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/parent.pt",
+      "sha256": "8e15403572a5a629b0b6ef7060275bbe5efb68cd9b07bda597bcc143dced911d",
+      "checkpoint_keys": [
+        "model",
+        "model_config"
+      ],
+      "optimizer_group": {},
+      "optimizer_state_tensors": 0,
+      "optimizer_group_parameters": 0,
+      "model_state_tensor_bytes": 22930944,
+      "adam_moment_bytes": 0,
+      "optimizer_steps": [],
+      "phase": null,
+      "step": null
+    }
+  ]
+}

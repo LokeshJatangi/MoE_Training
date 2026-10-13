@@ -1,0 +1,1 @@
+../../MoE_Clone_Lab-evidence/scripts/prepare_tinystories_lab.py

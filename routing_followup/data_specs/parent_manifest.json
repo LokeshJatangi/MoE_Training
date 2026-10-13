@@ -1,0 +1,17 @@
+{
+  "parent_sha256": "8e15403572a5a629b0b6ef7060275bbe5efb68cd9b07bda597bcc143dced911d",
+  "source": "MoE_Clone_Lab-evidence/checkpoints/clone-first-20261012-133612/parent.pt",
+  "architecture": {
+    "vocab_size": 4096,
+    "context": 128,
+    "layers": 4,
+    "width": 192,
+    "heads": 6,
+    "intermediate": 384,
+    "experts": 4,
+    "top_k": 2
+  },
+  "parent_training_steps": 250,
+  "dense_training_steps": 500,
+  "parent_validation_ce": 4.123746156692505
+}

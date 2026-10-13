@@ -1,0 +1,16 @@
+{
+  "torch": "2.11.0+cu130",
+  "python": "3.13.15",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "data_sha256": "ffe76e4ff906b4bf2be7d0abd5ce61dd74eb497d78a2d37e614f8ad153e164bc",
+  "source_sha256": {
+    "src/train.py": "3e2d297940f6c546f56786377acca2f1c12d25681a516a2369c2f5fab9085b52",
+    "src/train_gpt.py": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8",
+    "src/models.py": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd",
+    "src/gpt.py": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4",
+    "src/clone_sweep.py": "6f1135e545da50ad366387e3eb34ac3330788ad5d1f8e1da9d5d1847bde32c44",
+    "src/routing_lab.py": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991"
+  },
+  "source_hash_scope": "Sanitized submission snapshots; original verified digests are recorded in provenance/source_verification.json."
+}

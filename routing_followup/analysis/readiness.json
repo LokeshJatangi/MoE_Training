@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "unit_tests_passed": 4,
+  "all_five_toy_arms_completed": true,
+  "new_t4_execution": true,
+  "parent_sha256": "8e15403572a5a629b0b6ef7060275bbe5efb68cd9b07bda597bcc143dced911d",
+  "notebook_code_compiled": true,
+  "notebook_source_snapshot_matches": true,
+  "plots_visually_checked": true,
+  "completed_t4_arms": 5,
+  "uploaded_evidence_source_hashes_verified": 4,
+  "completed_steps_per_arm": 750,
+  "final_expert_learning_audit": "../analysis/routing_followup_audit.json"
+}

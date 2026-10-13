@@ -1,0 +1,17 @@
+{
+  "atol": 1e-05,
+  "rtol": 1e-05,
+  "ce_atol": 1e-05,
+  "finite": true,
+  "max_absolute_logit_error": 0.0,
+  "rms_logit_error": 0.0,
+  "max_error_over_allowed": 0.0,
+  "logits_outside_tolerance": 0,
+  "dense_probe_ce": 2.6249213218688965,
+  "moe_probe_ce": 2.6249213218688965,
+  "probe_ce_change": 0.0,
+  "max_probability_error": 0.0,
+  "logits_close": true,
+  "ce_close": true,
+  "passed": true
+}

@@ -1,0 +1,447 @@
+[
+  {
+    "path": "development_archive/execution_records/MoE_Training/clone-parameter-audit.json",
+    "canonical": "analysis/clone_parameter_audit.json",
+    "sha256": "a81720fb1857a1f265508582f8e90644681ed34ffd57967f7364632e4c946618"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/colab-checkpoint-audit.json",
+    "canonical": "analysis/checkpoint_audit.json",
+    "sha256": "b1d6f553cf70955471556b9b54b65ac1963b231abeb352f53c415b444113cc9f"
+  },
+  {
+    "path": "scripts/run_logged.py",
+    "canonical": "MoE_Training-results/scripts/run_logged.py",
+    "sha256": "6bfa4fe99178e43c45abdda44fdad14628cc24ad88dd5f3c8d92819d8495b3ed"
+  },
+  {
+    "path": "routing_followup/scripts/run_logged.py",
+    "canonical": "MoE_Training-results/scripts/run_logged.py",
+    "sha256": "6bfa4fe99178e43c45abdda44fdad14628cc24ad88dd5f3c8d92819d8495b3ed"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/scripts/run_logged.py",
+    "canonical": "MoE_Training-results/scripts/run_logged.py",
+    "sha256": "6bfa4fe99178e43c45abdda44fdad14628cc24ad88dd5f3c8d92819d8495b3ed"
+  },
+  {
+    "path": "scripts/find_dense_run.py",
+    "canonical": "MoE_Training-results/scripts/find_dense_run.py",
+    "sha256": "08655602398966f30a5239a4c426c9ac0c5a7dd12f0374f2b8925f4cc4b72a60"
+  },
+  {
+    "path": "routing_followup/scripts/prepare_tinystories_lab.py",
+    "canonical": "scripts/prepare_tinystories_lab.py",
+    "sha256": "b512d169e9a40475c069cc1f5b45c76fcaf3e5ddffc52af6a3b37c1281272e57"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/scripts/prepare_tinystories_lab.py",
+    "canonical": "scripts/prepare_tinystories_lab.py",
+    "sha256": "b512d169e9a40475c069cc1f5b45c76fcaf3e5ddffc52af6a3b37c1281272e57"
+  },
+  {
+    "path": "data/tinyshakespeare.txt",
+    "canonical": "MoE_Training-results/data/tinyshakespeare.txt",
+    "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-recovered-20261012-175909-501259/data_manifest.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-20261012-175722/data_manifest.json",
+    "sha256": "7c587583cb43b879dad08d2d946bdad0978d3cd7d71ed45eb700b1b895feac0e"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-recovered-20261012-180346-953876/data_manifest.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-20261012-175722/data_manifest.json",
+    "sha256": "7c587583cb43b879dad08d2d946bdad0978d3cd7d71ed45eb700b1b895feac0e"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-diagnostic-20261012-175748-900661/data_manifest.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-20261012-175722/data_manifest.json",
+    "sha256": "7c587583cb43b879dad08d2d946bdad0978d3cd7d71ed45eb700b1b895feac0e"
+  },
+  {
+    "path": "data_specs/tinyshakespeare.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-20261012-175722/data_manifest.json",
+    "sha256": "7c587583cb43b879dad08d2d946bdad0978d3cd7d71ed45eb700b1b895feac0e"
+  },
+  {
+    "path": "configs/granular_t4.json",
+    "canonical": "MoE_Granular_Lab-evidence/configs/granular_t4.json",
+    "sha256": "e26d4a073230321049cf99937e1d6629ada2794de572da48cd2e6d19479ce6f4"
+  },
+  {
+    "path": "src/gpt.py",
+    "canonical": "MoE_Training-results/src/gpt.py",
+    "sha256": "50a386e2f54825a7e91219f95011d459a82a57559785cad3423527cd4ce35251"
+  },
+  {
+    "path": "routing_followup/src/gpt.py",
+    "canonical": "MoE_Training-results/src/gpt.py",
+    "sha256": "50a386e2f54825a7e91219f95011d459a82a57559785cad3423527cd4ce35251"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/src/gpt.py",
+    "canonical": "MoE_Training-results/src/gpt.py",
+    "sha256": "50a386e2f54825a7e91219f95011d459a82a57559785cad3423527cd4ce35251"
+  },
+  {
+    "path": "src/routing_lab.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/routing_lab.py",
+    "sha256": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991"
+  },
+  {
+    "path": "routing_followup/src/routing_lab.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/routing_lab.py",
+    "sha256": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/src/routing_lab.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/routing_lab.py",
+    "sha256": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991"
+  },
+  {
+    "path": "MoE_Clone_Lab-evidence/src/train.py",
+    "canonical": "MoE_Training-results/src/train.py",
+    "sha256": "3e2d297940f6c546f56786377acca2f1c12d25681a516a2369c2f5fab9085b52"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/src/train.py",
+    "canonical": "MoE_Training-results/src/train.py",
+    "sha256": "3e2d297940f6c546f56786377acca2f1c12d25681a516a2369c2f5fab9085b52"
+  },
+  {
+    "path": "src/train.py",
+    "canonical": "MoE_Training-results/src/train.py",
+    "sha256": "3e2d297940f6c546f56786377acca2f1c12d25681a516a2369c2f5fab9085b52"
+  },
+  {
+    "path": "src/granular_experiment.py",
+    "canonical": "MoE_Granular_Lab-evidence/src/granular_experiment.py",
+    "sha256": "da35e07a2d738ed4c296e86e7ce43108046cd0358554829ec44e1156a2b8df06"
+  },
+  {
+    "path": "src/conversion_checks.py",
+    "canonical": "MoE_Training-results/src/conversion_checks.py",
+    "sha256": "72a0399b15f4e96a83ac1f6c6475561a60f891d618ccd2539d93fc058a3463fe"
+  },
+  {
+    "path": "src/clone_sweep.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/clone_sweep.py",
+    "sha256": "6f1135e545da50ad366387e3eb34ac3330788ad5d1f8e1da9d5d1847bde32c44"
+  },
+  {
+    "path": "src/granular.py",
+    "canonical": "MoE_Granular_Lab-evidence/src/granular.py",
+    "sha256": "e71de2019c8c135e437ebb973eb4da14a502dca7aef6b0d34f7532e5ef2fb3ad"
+  },
+  {
+    "path": "src/train_gpt.py",
+    "canonical": "MoE_Training-results/src/train_gpt.py",
+    "sha256": "5a510ca07aa7bee488f7f27bd7f8f16c8ae8271cda791f87c5540457608cc65b"
+  },
+  {
+    "path": "MoE_Clone_Lab-evidence/src/models.py",
+    "canonical": "MoE_Training-results/src/models.py",
+    "sha256": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/src/models.py",
+    "canonical": "MoE_Training-results/src/models.py",
+    "sha256": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd"
+  },
+  {
+    "path": "src/models.py",
+    "canonical": "MoE_Training-results/src/models.py",
+    "sha256": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd"
+  },
+  {
+    "path": "MoE_Clone_Lab-evidence/tests/test_models.py",
+    "canonical": "MoE_Training-results/tests/test_models.py",
+    "sha256": "f18e3f6a86159794e1661613df5ce160ff9494771ac8947deae3215e8be9fc58"
+  },
+  {
+    "path": "tests/test_models.py",
+    "canonical": "MoE_Training-results/tests/test_models.py",
+    "sha256": "f18e3f6a86159794e1661613df5ce160ff9494771ac8947deae3215e8be9fc58"
+  },
+  {
+    "path": "MoE_Clone_Lab-evidence/tests/test_gpt.py",
+    "canonical": "MoE_Training-results/tests/test_gpt.py",
+    "sha256": "2acdeb12f91288c89046a5ba594a92775bdd4e282751e6fc0319842f3bd4336a"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/tests/test_gpt.py",
+    "canonical": "MoE_Training-results/tests/test_gpt.py",
+    "sha256": "2acdeb12f91288c89046a5ba594a92775bdd4e282751e6fc0319842f3bd4336a"
+  },
+  {
+    "path": "tests/test_gpt.py",
+    "canonical": "MoE_Training-results/tests/test_gpt.py",
+    "sha256": "2acdeb12f91288c89046a5ba594a92775bdd4e282751e6fc0319842f3bd4336a"
+  },
+  {
+    "path": "tests/test_run_logged.py",
+    "canonical": "MoE_Training-results/tests/test_run_logged.py",
+    "sha256": "c456a5393b7dced07c264ff2312c24ec29003c8e4b643e9432e69f029d23bb9f"
+  },
+  {
+    "path": "tests/test_granular.py",
+    "canonical": "MoE_Granular_Lab-evidence/tests/test_granular.py",
+    "sha256": "0b37e17a1ec7948a9e31cef633b5d7ebaa50f5c59514d5d8a78a2f891759516a"
+  },
+  {
+    "path": "tests/test_routing_lab.py",
+    "canonical": "MoE_Clone_Lab-evidence/tests/test_routing_lab.py",
+    "sha256": "bdb8784f39e1c344483e2f2dffe64a22e7829282feac757d270359de606a9c19"
+  },
+  {
+    "path": "tests/test_conversion_checks.py",
+    "canonical": "MoE_Training-results/tests/test_conversion_checks.py",
+    "sha256": "0f3251d912e0d8b641e554f406c4619a5b80ab5c1aa9576d28cc4aa2815a2f99"
+  },
+  {
+    "path": "MoE_Training-results/work/recovery-20261012-180346-953876.json",
+    "canonical": "MoE_Training-results/work/recovery-20261012-175909-501259.json",
+    "sha256": "7e3fd6ba2ebf9c0c9cddc4977c59f9cc9603c96f7d35e0ae8b01e596f404d3f0"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-recovered-20261012-175909-501259/config.json",
+    "canonical": "MoE_Training-results/work/recovery-20261012-175909-501259.json",
+    "sha256": "7e3fd6ba2ebf9c0c9cddc4977c59f9cc9603c96f7d35e0ae8b01e596f404d3f0"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-recovered-20261012-180346-953876/config.json",
+    "canonical": "MoE_Training-results/work/recovery-20261012-175909-501259.json",
+    "sha256": "7e3fd6ba2ebf9c0c9cddc4977c59f9cc9603c96f7d35e0ae8b01e596f404d3f0"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/src/gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/gpt.py",
+    "sha256": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-20261012-175722/src/gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/gpt.py",
+    "sha256": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4"
+  },
+  {
+    "path": "MoE_Training-results/work/source-before-recovery-20261012-180346-953876/src/gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/gpt.py",
+    "sha256": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-recovered-20261012-175909-501259/src/gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/gpt.py",
+    "sha256": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-diagnostic-20261012-175748-900661/src/gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/gpt.py",
+    "sha256": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-recovered-20261012-175909-501259/src/conversion_checks.py",
+    "canonical": "MoE_Training-results/work/source-before-recovery-20261012-180346-953876/src/conversion_checks.py",
+    "sha256": "a3cc6cff26af5cd92cd44b086561a96d44a54c2b7efede430ca55d39312bcf0b"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-recovered-20261012-175909-501259/src/train_gpt.py",
+    "canonical": "MoE_Training-results/work/source-before-recovery-20261012-180346-953876/src/train_gpt.py",
+    "sha256": "a7d8fe19df7bbfda562bfb5643679652f3813427659fa464cb350316acba8dc4"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/src/train_gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/train_gpt.py",
+    "sha256": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-20261012-175722/src/train_gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/train_gpt.py",
+    "sha256": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8"
+  },
+  {
+    "path": "MoE_Training-results/work/source-before-recovery-20261012-175909-501259/src/train_gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/train_gpt.py",
+    "sha256": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8"
+  },
+  {
+    "path": "MoE_Training-results/historical_source/gpt-colab-diagnostic-20261012-175748-900661/src/train_gpt.py",
+    "canonical": "MoE_Clone_Lab-evidence/src/train_gpt.py",
+    "sha256": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8"
+  },
+  {
+    "path": "development_archive/local-results/gpt-colab-user-report-fp32/conversion.reported.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-recovered-20261012-175909-501259/conversion-17.json",
+    "sha256": "3ba4e0a9fe22225a0099b21a708495e5616f6266caeff1fb3dd7efabbafcd696"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-diagnostic-20261012-175748-900661/metrics.jsonl",
+    "canonical": "MoE_Training-results/results/gpt-colab-recovered-20261012-175909-501259/metrics.jsonl",
+    "sha256": "b42c01368d77455870c86e8280f11b7f53e4dd3d39dba9709081b314965ff3f0"
+  },
+  {
+    "path": "MoE_Training-results/results/gpt-colab-diagnostic-20261012-175748-900661/config.json",
+    "canonical": "MoE_Training-results/results/gpt-colab-20261012-175722/config.json",
+    "sha256": "cb82514b79b107574feaa3ed6f04185adc79e62cbdbf2ee8b0fa32eb1856cd8f"
+  },
+  {
+    "path": "development_archive/local-results/routing/data_manifest.json",
+    "canonical": "MoE_Training-results/results/routing/data_manifest.json",
+    "sha256": "8604ac9eb6ea4e2e215c0db6f9ef1242cd45a6c63a181902ad309c9e85ffde60"
+  },
+  {
+    "path": "MoE_Training-results/work/logs/data-20261012-180346-953876.log",
+    "canonical": "MoE_Training-results/work/logs/data-20261012-175909-501259.log",
+    "sha256": "eac4eceedf8fa150871e4a3854adbbeaf5bd3a5fe44372c51f743e4b64111966"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/scripts/report_learning.py",
+    "canonical": "routing_followup/scripts/report_learning.py",
+    "sha256": "07118c39f9043d66a079c1dd553cdf904577ecfc4342e6080dcfba401ae16b3b"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/data_specs/parent_manifest.json",
+    "canonical": "routing_followup/data_specs/parent_manifest.json",
+    "sha256": "840b5f780c1e9e5a0c124295e78715950ff5ca7c73e87e8d1dc4e11e86aecf5f"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/data/tinystories_lab/tokenizer.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/tokenizer.json",
+    "sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093"
+  },
+  {
+    "path": "routing_followup/data_specs/tokenizer.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/tokenizer.json",
+    "sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/data_specs/tokenizer.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/tokenizer.json",
+    "sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/data/tinystories_lab/tokenizer.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/tokenizer.json",
+    "sha256": "deb6208dc72ae00908b6449c0c24d06a875452552381e83cfce141f6d0623093"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/data/tinystories_lab/manifest.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/manifest.json",
+    "sha256": "a7872584c1d957f3067c8349030bf090b21438c70290858f966ed4047fcb9456"
+  },
+  {
+    "path": "routing_followup/data_specs/manifest.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/manifest.json",
+    "sha256": "a7872584c1d957f3067c8349030bf090b21438c70290858f966ed4047fcb9456"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/data_specs/manifest.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/manifest.json",
+    "sha256": "a7872584c1d957f3067c8349030bf090b21438c70290858f966ed4047fcb9456"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/data/tinystories_lab/manifest.json",
+    "canonical": "MoE_Clone_Lab-evidence/data/tinystories_lab/manifest.json",
+    "sha256": "a7872584c1d957f3067c8349030bf090b21438c70290858f966ed4047fcb9456"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/configs/t4.json",
+    "canonical": "routing_followup/configs/t4.json",
+    "sha256": "20947a20db6ed587d568e98bc11f7018f276f13693c432df71fe7006b7576f0f"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/src/learning_metrics.py",
+    "canonical": "routing_followup/src/learning_metrics.py",
+    "sha256": "69c14c94ce4540339530d6b9813da4c5b8fa53418eba4788d80d4071151a51c1"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/src/improve_routing.py",
+    "canonical": "routing_followup/src/improve_routing.py",
+    "sha256": "9a032ea67cd7ef3e4de8419c5a55cffbad250060d472ba44a93dd082cc6bbe39"
+  },
+  {
+    "path": "MoE_Routing_Followup-20261013-041132-668911/tests/test_learning_metrics.py",
+    "canonical": "routing_followup/tests/test_learning_metrics.py",
+    "sha256": "0dcbf0915aa60fed6b9374fac3626f2f86f44ab5d768186c70817f715d69a5c9"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/clone_smoke_v2.log",
+    "canonical": "development_archive/local-results/clone-cpu-smoke-v2/metrics.jsonl",
+    "sha256": "fb767c44e239954c6f01788f5365fc34ad13f8dfd389e73fe898ccd785732bb4"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/granular-cpu-pilot.log",
+    "canonical": "development_archive/local-results/granular-cpu-pilot/metrics.jsonl",
+    "sha256": "6335ed4ca5d9356301f5ce671edadb02c03603a630c3b74c63ebb54ddbaba651"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/narrow-methods-cpu-seed17.log",
+    "canonical": "development_archive/local-results/narrow-methods-cpu-seed17/metrics.jsonl",
+    "sha256": "cd4cb0c9f2d575cbea8926f6c9847cf657fcc36b7e2337a1c0e4661ab78bcb57"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/clone_smoke.log",
+    "canonical": "development_archive/local-results/clone-cpu-smoke/metrics.jsonl",
+    "sha256": "c00612236e6590feb1d11d0394a92274bc159e0b6cd91d2594569fef729df075"
+  },
+  {
+    "path": "development_archive/execution_records/MoE_Training/resume-check/data_manifest.json",
+    "canonical": "development_archive/local-results/gpt-cpu-pilot/data_manifest.json",
+    "sha256": "c0ae826e4432950052c8a1c7124ba05c57c20e465b70a6318051ed9cbfb692eb"
+  },
+  {
+    "path": "development_archive/local-results/clone-cpu-smoke-v2/base_summary.json",
+    "canonical": "development_archive/local-results/clone-cpu-smoke/base_summary.json",
+    "sha256": "409829cd785a45461cbf763b189db94febbe562eb06442016c8cf6dc1f954a9f"
+  },
+  {
+    "path": "development_archive/local-results/clone-cpu-smoke-v2/config.json",
+    "canonical": "development_archive/local-results/clone-cpu-smoke/config.json",
+    "sha256": "bfec2d68d019b4181c810cda92e4bc1e58a016ee598f7dc9eedea9056078318f"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/scripts/prepare_tinystories_lab.py",
+    "canonical": "MoE_Clone_Lab-evidence/scripts/prepare_tinystories_lab.py",
+    "sha256": "2d6cc637aacac32e220d81e7ada25bf78695c0f51412f3f8d140b9045ca902df"
+  },
+  {
+    "path": "routing_followup/development_archive/execution_records/MoE_Routing_Followup/toy-smoke-telemetry.log",
+    "canonical": "routing_followup/development_archive/execution_records/MoE_Routing_Followup/toy-smoke.log",
+    "sha256": "3def4d0c14745aed84e83abf9345321c006e810f5485c3eb6835ff86f27e5b69"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-final-20261013/provenance.json",
+    "canonical": "routing_followup/results/toy-smoke-20261013/provenance.json",
+    "sha256": "a7f46fe64fa5f49d3628057f9932a81a7bc4ba1f2552b59ad152c7f065afe10e"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-telemetry-20261013/provenance.json",
+    "canonical": "routing_followup/results/toy-smoke-20261013/provenance.json",
+    "sha256": "a7f46fe64fa5f49d3628057f9932a81a7bc4ba1f2552b59ad152c7f065afe10e"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-final-20261013/config.json",
+    "canonical": "routing_followup/results/toy-smoke-20261013/config.json",
+    "sha256": "c56bf213e201b54dfb6e4ee582601971cfff74f8788dff7487abc2b487bcbd2a"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-telemetry-20261013/config.json",
+    "canonical": "routing_followup/results/toy-smoke-20261013/config.json",
+    "sha256": "c56bf213e201b54dfb6e4ee582601971cfff74f8788dff7487abc2b487bcbd2a"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-telemetry-20261013/REPORT.md",
+    "canonical": "routing_followup/results/toy-smoke-final-20261013/REPORT.md",
+    "sha256": "50d7436d3be33ad9cc0cad8c644a5f87f505169b96da589a3b548b68562ae7d3"
+  },
+  {
+    "path": "routing_followup/results/toy-smoke-telemetry-20261013/routing_curves.png",
+    "canonical": "routing_followup/results/toy-smoke-final-20261013/routing_curves.png",
+    "sha256": "9e61bc92c4a2c426a4261830eaf56bcb5f8a9d97ff05133000bf48694da5e540"
+  },
+  {
+    "path": "MoE_Granular_Lab-evidence/results/granular-20261012-122635-419439/config.json",
+    "canonical": "MoE_Granular_Lab-evidence/configs/run.json",
+    "sha256": "2614f62e94956d76af48be3ee7d7bb5f36ba6e80d9d6f89c0277de0e5a64f53d"
+  }
+]

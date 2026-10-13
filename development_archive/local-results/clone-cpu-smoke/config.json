@@ -1,0 +1,32 @@
+{
+  "model": {
+    "context": 8,
+    "layers": 1,
+    "width": 16,
+    "heads": 4,
+    "intermediate": 32,
+    "experts": 4,
+    "top_k": 2
+  },
+  "batch_size": 2,
+  "eval_sequences": 4,
+  "calibration_sequences": 8,
+  "seed": 17,
+  "dense_steps": 3,
+  "parent_steps": 3,
+  "base_lr": 0.0006,
+  "continuation_lr": 0.0003,
+  "expert_counts": [
+    12
+  ],
+  "steps": 10,
+  "warmup_steps": 4,
+  "anneal_steps": 8,
+  "window_steps": 4,
+  "eval_every": 2,
+  "ready_checks": 2,
+  "min_routings": 1,
+  "bias_rate": 0.001,
+  "router_noise": 0.0,
+  "max_arm_seconds": 30
+}

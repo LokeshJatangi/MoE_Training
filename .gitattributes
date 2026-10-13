@@ -1,0 +1,5 @@
+# Preserve generated SVG formatting, CSV line endings, and exact corpus/log bytes.
+*.svg whitespace=-blank-at-eol
+*.csv whitespace=cr-at-eol
+MoE_Training-results/data/tinyshakespeare.txt -whitespace
+development_archive/local-results/gpt-colab-user-report/reported_log.txt -whitespace

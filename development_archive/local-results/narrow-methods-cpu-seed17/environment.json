@@ -1,0 +1,20 @@
+{
+  "device": "cpu",
+  "threads": 2,
+  "precision": "FP32",
+  "python": "3.12.2",
+  "torch": "2.9.1+cu128",
+  "dense_checkpoint_sha256": "589e2e9dea69704030beb2345862e4be1ded733dc7a135c654949d98148498fd",
+  "source_sha256": {
+    "src/gpt.py": "d29ded2e1c97fe6d3cd956d15e8d0600e53df27256aa5f0c11d1b6c76fc33ad4",
+    "src/routing_lab.py": "0b6c0e25aaf64f4fcfc370dbeb295ef4d5b966482ab588c33abd4143710da991",
+    "src/train.py": "775182c02cd311e995afacfbc5991b98a45098ba0b44af9fb3f519e7c4161d46",
+    "src/compare_narrow_methods.py": "929e64e16aee939047d0b37e16d415ceae40065c8a397204504c796e5b4635a4",
+    "src/granular_experiment.py": "da35e07a2d738ed4c296e86e7ce43108046cd0358554829ec44e1156a2b8df06",
+    "src/clone_sweep.py": "0ca516df45486e7fd0fcc464035d9cae959272e871cfb43110fc985da8ec9543",
+    "src/granular.py": "e71de2019c8c135e437ebb973eb4da14a502dca7aef6b0d34f7532e5ef2fb3ad",
+    "src/train_gpt.py": "98ea4da0e76a27c981ae9444824f23b1ceeea8097a652c42fa907e07f29c2df8",
+    "src/narrow_methods.py": "5fad7289d3a14e401ee60d2bfb474a3bd75ededd7a25866b86b93cba95509db7",
+    "src/models.py": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd"
+  }
+}

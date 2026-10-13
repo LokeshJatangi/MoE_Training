@@ -1,0 +1,43 @@
+{
+  "atol": 1e-05,
+  "rtol": 1e-05,
+  "ce_atol": 1e-05,
+  "finite": true,
+  "max_absolute_logit_error": 3.337860107421875e-05,
+  "rms_logit_error": 1.225876076205168e-06,
+  "max_error_over_allowed": 1.334233045578003,
+  "logits_outside_tolerance": 6,
+  "dense_probe_ce": 1.8894422054290771,
+  "moe_probe_ce": 1.8894422054290771,
+  "probe_ce_change": 0.0,
+  "max_probability_error": 3.516674041748047e-06,
+  "logits_close": false,
+  "ce_close": true,
+  "passed": true,
+  "fp64_cpu_reference": {
+    "sequence_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63
+    ],
+    "atol": 1e-10,
+    "rtol": 1e-10,
+    "ce_atol": 1e-10,
+    "max_absolute_logit_error": 3.4638958368304884e-14,
+    "probe_ce_change": 0.0,
+    "passed": true
+  },
+  "fp32_behavior_bounds": {
+    "max_absolute_logit_error": 0.0001,
+    "rms_logit_error": 1e-05,
+    "max_probability_error": 1e-05,
+    "absolute_probe_ce_change": 1e-05
+  },
+  "fp32_behavior_bounds_passed": true,
+  "acceptance_method": "fp64_reference_and_bounded_fp32"
+}

@@ -1,0 +1,9 @@
+{
+  "seed":17,
+  "checkpoint":"checkpoints/granular-cpu-pilot/17/dense_pretrain.pt",
+  "dense_evidence":"results/granular-cpu-pilot",
+  "methods":["dense_control","full_copy","contiguous","shuffled","drop","perturbed","random"],
+  "conversion":{"partitions":4,"replicas":4,"top_k":4,"noise_fraction":0.01},
+  "batch_size":16,"eval_sequences":32,"continuation_steps":300,"continuation_lr":0.0005,
+  "balance_coefficient":0.01,"weight_decay":0.01,"gradient_clip":1.0,"eval_every":50
+}

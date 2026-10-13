@@ -1,0 +1,221 @@
+[
+  {
+    "seed": 17,
+    "model_config": {
+      "vocab_size": 65,
+      "context": 64,
+      "layers": 2,
+      "width": 64,
+      "heads": 4,
+      "intermediate": 128,
+      "experts": 4,
+      "top_k": 1
+    },
+    "dense_parameters": {
+      "total": 90816,
+      "active_parameter_convention": 90816,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "moe_parameters": {
+      "total": 238784,
+      "active_parameter_convention": 91328,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "conversion_max_logit_error": 0.0,
+    "conversion_diagnostics": {
+      "atol": 1e-05,
+      "rtol": 1e-05,
+      "ce_atol": 1e-05,
+      "finite": true,
+      "max_absolute_logit_error": 0.0,
+      "rms_logit_error": 0.0,
+      "max_error_over_allowed": 0.0,
+      "logits_outside_tolerance": 0,
+      "dense_probe_ce": 2.6249213218688965,
+      "moe_probe_ce": 2.6249213218688965,
+      "probe_ce_change": 0.0,
+      "max_probability_error": 0.0,
+      "logits_close": true,
+      "ce_close": true,
+      "passed": true
+    },
+    "initial": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.19009256362915,
+      "validation_ce": 4.190773010253906,
+      "elapsed_seconds_including_eval": 0.018779356993036345
+    },
+    "dense_end": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 150,
+      "global_step": 150,
+      "targets_seen": 153600,
+      "train_ce": 2.6698925495147705,
+      "validation_ce": 2.6249212622642517,
+      "elapsed_seconds_including_eval": 2.8661221929942258,
+      "batch_task_ce": 2.6322338581085205,
+      "balance_loss": 0.0,
+      "objective": 2.6322338581085205,
+      "gradient_norm_before_clip": 0.8717702627182007,
+      "router_gradient_norm": []
+    },
+    "dense_timing": {
+      "wall_seconds_including_eval": 2.8661221929942258,
+      "resumed_from": "results/granular-cpu-pilot",
+      "checkpoint_sha256": "589e2e9dea69704030beb2345862e4be1ded733dc7a135c654949d98148498fd",
+      "resume_next_update_parameter_error": null,
+      "note": "Dense timing/metrics inherited; continuation optimizer resets as before."
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 150,
+          "targets_seen": 153600,
+          "train_ce": 2.6698925495147705,
+          "validation_ce": 2.6249212622642517,
+          "elapsed_seconds_including_eval": 0.029505065002012998
+        },
+        "final": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 2,
+          "global_step": 152,
+          "targets_seen": 155648,
+          "train_ce": 2.662443220615387,
+          "validation_ce": 2.6249464750289917,
+          "elapsed_seconds_including_eval": 0.16299805001472123,
+          "batch_task_ce": 2.609362840652466,
+          "balance_loss": 0.0,
+          "objective": 2.609362840652466,
+          "gradient_norm_before_clip": 1.0543891191482544,
+          "router_gradient_norm": []
+        },
+        "test_ce": 2.6295329928398132,
+        "wall_seconds_including_eval": 0.16323460399871692,
+        "targets_per_second_including_eval": 12546.359349247406,
+        "resume_next_update_parameter_error": 0.0
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 150,
+          "targets_seen": 153600,
+          "train_ce": 2.6698925495147705,
+          "validation_ce": 2.6249212622642517,
+          "elapsed_seconds_including_eval": 0.05756689902045764,
+          "expert_fractions": [
+            [
+              0.1015625,
+              0.0673828125,
+              0.119140625,
+              0.7119140625
+            ],
+            [
+              0.12841796875,
+              0.34765625,
+              0.41845703125,
+              0.10546875
+            ]
+          ],
+          "router_entropy": [
+            1.371695637702942,
+            1.379257321357727
+          ],
+          "expert_load_cv": [
+            1.0693390369415283,
+            0.5425347685813904
+          ]
+        },
+        "final": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 2,
+          "global_step": 152,
+          "targets_seen": 155648,
+          "train_ce": 2.6669615507125854,
+          "validation_ce": 2.633241891860962,
+          "elapsed_seconds_including_eval": 0.21375156100839376,
+          "batch_task_ce": 2.6073529720306396,
+          "balance_loss": 1.0376613140106201,
+          "objective": 2.617729663848877,
+          "gradient_norm_before_clip": 0.9993268251419067,
+          "router_gradient_norm": [
+            0.009359849616885185,
+            0.003634024178609252
+          ],
+          "expert_fractions": [
+            [
+              0.107421875,
+              0.09814453125,
+              0.2314453125,
+              0.56298828125
+            ],
+            [
+              0.18212890625,
+              0.26416015625,
+              0.40966796875,
+              0.14404296875
+            ]
+          ],
+          "router_entropy": [
+            1.3756316900253296,
+            1.3796741962432861
+          ],
+          "expert_load_cv": [
+            0.7528467178344727,
+            0.40756717324256897
+          ]
+        },
+        "test_ce": 2.6371517181396484,
+        "wall_seconds_including_eval": 0.21399437001673505,
+        "targets_per_second_including_eval": 9570.345237773498,
+        "resume_next_update_parameter_error": 0.0
+      }
+    },
+    "expert_matrix_changes_l2": {
+      "blocks.0.ffn.experts.0.gate.weight": 0.06717801094055176,
+      "blocks.0.ffn.experts.0.up.weight": 0.06731875985860825,
+      "blocks.0.ffn.experts.0.down.weight": 0.06715534627437592,
+      "blocks.0.ffn.experts.1.gate.weight": 0.06563485413789749,
+      "blocks.0.ffn.experts.1.up.weight": 0.06502094864845276,
+      "blocks.0.ffn.experts.1.down.weight": 0.06354238092899323,
+      "blocks.0.ffn.experts.2.gate.weight": 0.07072973996400833,
+      "blocks.0.ffn.experts.2.up.weight": 0.07050517946481705,
+      "blocks.0.ffn.experts.2.down.weight": 0.07036204636096954,
+      "blocks.0.ffn.experts.3.gate.weight": 0.0630456879734993,
+      "blocks.0.ffn.experts.3.up.weight": 0.06406573951244354,
+      "blocks.0.ffn.experts.3.down.weight": 0.06467639654874802,
+      "blocks.1.ffn.experts.0.gate.weight": 0.07076944410800934,
+      "blocks.1.ffn.experts.0.up.weight": 0.07124350219964981,
+      "blocks.1.ffn.experts.0.down.weight": 0.07298067957162857,
+      "blocks.1.ffn.experts.1.gate.weight": 0.06961085647344589,
+      "blocks.1.ffn.experts.1.up.weight": 0.06712845712900162,
+      "blocks.1.ffn.experts.1.down.weight": 0.06856267899274826,
+      "blocks.1.ffn.experts.2.gate.weight": 0.06690950691699982,
+      "blocks.1.ffn.experts.2.up.weight": 0.06603355705738068,
+      "blocks.1.ffn.experts.2.down.weight": 0.06619077920913696,
+      "blocks.1.ffn.experts.3.gate.weight": 0.07120223343372345,
+      "blocks.1.ffn.experts.3.up.weight": 0.0716492310166359,
+      "blocks.1.ffn.experts.3.down.weight": 0.071602001786232
+    },
+    "acceptance": {
+      "dense_train_drops": true,
+      "dense_validation_drops": true,
+      "moe_train_drops": true,
+      "moe_validation_drops": false,
+      "all_expert_matrices_updated": true,
+      "conversion_preserved": true
+    },
+    "peak_cuda_memory_allocated_bytes": null
+  }
+]

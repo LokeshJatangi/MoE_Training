@@ -1,0 +1,13 @@
+{
+  "python": "3.12.2",
+  "torch": "2.9.1+cu128",
+  "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+  "device": "cpu",
+  "threads": 2,
+  "git_commit": null,
+  "source_sha256": {
+    "src/models.py": "a3770ef3d8f7efafe0b9269405be1cceb0ee68dc3d98e01c7eaf9c221d013cdd",
+    "src/train.py": "775182c02cd311e995afacfbc5991b98a45098ba0b44af9fb3f519e7c4161d46"
+  },
+  "gpu_name": null
+}

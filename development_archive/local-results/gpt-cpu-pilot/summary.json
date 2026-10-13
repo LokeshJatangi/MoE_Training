@@ -1,0 +1,202 @@
+[
+  {
+    "seed": 17,
+    "model_config": {
+      "vocab_size": 65,
+      "context": 64,
+      "layers": 2,
+      "width": 64,
+      "heads": 4,
+      "intermediate": 128,
+      "experts": 4,
+      "top_k": 2
+    },
+    "dense_parameters": {
+      "total": 90816,
+      "active_parameter_convention": 90816,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "moe_parameters": {
+      "total": 238784,
+      "active_parameter_convention": 140480,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "conversion_max_logit_error": 2.6226043701171875e-06,
+    "initial": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.19009256362915,
+      "validation_ce": 4.190773010253906,
+      "elapsed_seconds_including_eval": 0.019169088976923376
+    },
+    "dense_end": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 300,
+      "global_step": 300,
+      "targets_seen": 307200,
+      "train_ce": 2.540326476097107,
+      "validation_ce": 2.4835760593414307,
+      "elapsed_seconds_including_eval": 4.317602246999741,
+      "batch_task_ce": 2.4508180618286133,
+      "balance_loss": 0.0,
+      "objective": 2.4508180618286133,
+      "gradient_norm_before_clip": 0.9831713438034058,
+      "router_gradient_norm": []
+    },
+    "dense_timing": {
+      "wall_seconds_including_eval": 4.317776354000671,
+      "targets_per_second_including_eval": 71147.73318802429,
+      "resume_next_update_parameter_error": 0.0
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 300,
+          "targets_seen": 307200,
+          "train_ce": 2.540326476097107,
+          "validation_ce": 2.4835760593414307,
+          "elapsed_seconds_including_eval": 0.01646148899453692
+        },
+        "final": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 300,
+          "global_step": 600,
+          "targets_seen": 614400,
+          "train_ce": 2.41198867559433,
+          "validation_ce": 2.373483896255493,
+          "elapsed_seconds_including_eval": 4.801404460013146,
+          "batch_task_ce": 2.4601430892944336,
+          "balance_loss": 0.0,
+          "objective": 2.4601430892944336,
+          "gradient_norm_before_clip": 1.2160252332687378,
+          "router_gradient_norm": []
+        },
+        "test_ce": 2.3916271924972534,
+        "wall_seconds_including_eval": 4.801572024007328,
+        "targets_per_second_including_eval": 63979.0465422645,
+        "resume_next_update_parameter_error": 0.0
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 300,
+          "targets_seen": 307200,
+          "train_ce": 2.5403265357017517,
+          "validation_ce": 2.4835760593414307,
+          "elapsed_seconds_including_eval": 0.04976725499727763,
+          "expert_fractions": [
+            [
+              0.137451171875,
+              0.217041015625,
+              0.249267578125,
+              0.396240234375
+            ],
+            [
+              0.12890625,
+              0.30517578125,
+              0.31201171875,
+              0.25390625
+            ]
+          ],
+          "router_entropy": [
+            1.3721938133239746,
+            1.3788061141967773
+          ],
+          "expert_load_cv": [
+            0.3749147951602936,
+            0.29372623562812805
+          ]
+        },
+        "final": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 300,
+          "global_step": 600,
+          "targets_seen": 614400,
+          "train_ce": 2.409505009651184,
+          "validation_ce": 2.367055654525757,
+          "elapsed_seconds_including_eval": 9.030886007007211,
+          "batch_task_ce": 2.442622184753418,
+          "balance_loss": 1.0135595798492432,
+          "objective": 2.4527578353881836,
+          "gradient_norm_before_clip": 1.0426359176635742,
+          "router_gradient_norm": [
+            0.06720411777496338,
+            0.04417434707283974
+          ],
+          "expert_fractions": [
+            [
+              0.176025390625,
+              0.221923828125,
+              0.24267578125,
+              0.359375
+            ],
+            [
+              0.2216796875,
+              0.23095703125,
+              0.262939453125,
+              0.284423828125
+            ]
+          ],
+          "router_entropy": [
+            1.3554363250732422,
+            1.334682583808899
+          ],
+          "expert_load_cv": [
+            0.2703852653503418,
+            0.10034149885177612
+          ]
+        },
+        "test_ce": 2.3866384625434875,
+        "wall_seconds_including_eval": 9.031054984021466,
+        "targets_per_second_including_eval": 34015.959435915865,
+        "resume_next_update_parameter_error": 0.0
+      }
+    },
+    "expert_matrix_changes_l2": {
+      "blocks.0.ffn.experts.0.gate.weight": 0.6207533478736877,
+      "blocks.0.ffn.experts.0.up.weight": 0.5926027297973633,
+      "blocks.0.ffn.experts.0.down.weight": 0.623193085193634,
+      "blocks.0.ffn.experts.1.gate.weight": 0.6499568819999695,
+      "blocks.0.ffn.experts.1.up.weight": 0.6322140097618103,
+      "blocks.0.ffn.experts.1.down.weight": 0.6507947444915771,
+      "blocks.0.ffn.experts.2.gate.weight": 0.5805714130401611,
+      "blocks.0.ffn.experts.2.up.weight": 0.5780728459358215,
+      "blocks.0.ffn.experts.2.down.weight": 0.5915590524673462,
+      "blocks.0.ffn.experts.3.gate.weight": 0.6240556240081787,
+      "blocks.0.ffn.experts.3.up.weight": 0.6079823970794678,
+      "blocks.0.ffn.experts.3.down.weight": 0.6205170154571533,
+      "blocks.1.ffn.experts.0.gate.weight": 0.839045524597168,
+      "blocks.1.ffn.experts.0.up.weight": 0.7725003957748413,
+      "blocks.1.ffn.experts.0.down.weight": 0.8366175889968872,
+      "blocks.1.ffn.experts.1.gate.weight": 0.8023785352706909,
+      "blocks.1.ffn.experts.1.up.weight": 0.7684860229492188,
+      "blocks.1.ffn.experts.1.down.weight": 0.7940521836280823,
+      "blocks.1.ffn.experts.2.gate.weight": 0.8442387580871582,
+      "blocks.1.ffn.experts.2.up.weight": 0.7862124443054199,
+      "blocks.1.ffn.experts.2.down.weight": 0.8006597757339478,
+      "blocks.1.ffn.experts.3.gate.weight": 0.814979076385498,
+      "blocks.1.ffn.experts.3.up.weight": 0.7879207134246826,
+      "blocks.1.ffn.experts.3.down.weight": 0.8363543152809143
+    },
+    "acceptance": {
+      "dense_train_drops": true,
+      "dense_validation_drops": true,
+      "moe_train_drops": true,
+      "moe_validation_drops": true,
+      "all_expert_matrices_updated": true,
+      "conversion_preserved": true
+    },
+    "peak_cuda_memory_allocated_bytes": null
+  }
+]

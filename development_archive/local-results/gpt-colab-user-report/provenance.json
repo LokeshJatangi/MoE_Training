@@ -1,0 +1,13 @@
+{
+  "source": "User-pasted Colab subprocess output; not executed or independently reproduced by this agent",
+  "attachment_sha256": "3a056fc82777858fc47eff65eebe0097a52ebae884e4a6759d1cc24d86693608",
+  "seed": 17,
+  "device_argument": "cuda",
+  "gpu_name": "not supplied",
+  "dense_steps": 1000,
+  "target_tokens": 2048000,
+  "conversion_max_absolute_logit_error": 2.2411346435546875e-05,
+  "failed_check": "assert conversion_error < 1e-5",
+  "moe_continuation": "not reached",
+  "cause_of_stop": "conversion absolute-error assertion"
+}

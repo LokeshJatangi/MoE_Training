@@ -1,0 +1,305 @@
+[
+  {
+    "seed": 17,
+    "model_config": {
+      "vocab_size": 65,
+      "context": 128,
+      "layers": 4,
+      "width": 128,
+      "heads": 4,
+      "intermediate": 256,
+      "experts": 4,
+      "top_k": 2
+    },
+    "dense_parameters": {
+      "total": 682368,
+      "active_parameter_convention": 682368,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "moe_parameters": {
+      "total": 1864064,
+      "active_parameter_convention": 1077632,
+      "convention": "All nonexpert parameters, including full tied embedding table, plus selected expert parameters. Not a FLOP count."
+    },
+    "conversion_max_logit_error": 3.337860107421875e-05,
+    "conversion_diagnostics": {
+      "atol": 1e-05,
+      "rtol": 1e-05,
+      "ce_atol": 1e-05,
+      "finite": true,
+      "max_absolute_logit_error": 3.337860107421875e-05,
+      "rms_logit_error": 1.225876076205168e-06,
+      "max_error_over_allowed": 1.334233045578003,
+      "logits_outside_tolerance": 6,
+      "dense_probe_ce": 1.8894422054290771,
+      "moe_probe_ce": 1.8894422054290771,
+      "probe_ce_change": 0.0,
+      "max_probability_error": 3.516674041748047e-06,
+      "logits_close": false,
+      "ce_close": true,
+      "passed": true,
+      "fp64_cpu_reference": {
+        "sequence_indices": [
+          0,
+          9,
+          18,
+          27,
+          36,
+          45,
+          54,
+          63
+        ],
+        "atol": 1e-10,
+        "rtol": 1e-10,
+        "ce_atol": 1e-10,
+        "max_absolute_logit_error": 3.4638958368304884e-14,
+        "probe_ce_change": 0.0,
+        "passed": true
+      },
+      "fp32_behavior_bounds": {
+        "max_absolute_logit_error": 0.0001,
+        "rms_logit_error": 1e-05,
+        "max_probability_error": 1e-05,
+        "absolute_probe_ce_change": 1e-05
+      },
+      "fp32_behavior_bounds_passed": true,
+      "acceptance_method": "fp64_reference_and_bounded_fp32"
+    },
+    "initial": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 0,
+      "global_step": 0,
+      "targets_seen": 0,
+      "train_ce": 4.209708273410797,
+      "validation_ce": 4.216622233390808,
+      "elapsed_seconds_including_eval": 0.15309548100003667
+    },
+    "dense_end": {
+      "seed": 17,
+      "phase": "dense_pretrain",
+      "step": 1000,
+      "global_step": 1000,
+      "targets_seen": 2048000,
+      "train_ce": 1.7818236351013184,
+      "validation_ce": 1.8894422352313995,
+      "elapsed_seconds_including_eval": 9.537006266999924,
+      "batch_task_ce": 1.7869446277618408,
+      "balance_loss": 0.0,
+      "objective": 1.7869446277618408,
+      "gradient_norm_before_clip": 1.6924858093261719,
+      "router_gradient_norm": []
+    },
+    "dense_timing": {
+      "wall_seconds_including_eval": 9.537006266999924,
+      "resumed_from": "/content/MoE_Training/results/gpt-colab-recovered-20261012-175909-501259",
+      "checkpoint_sha256": "ab0791c9e7b4324ea047982969b41967bdf560b2905457ed210cd43ee8cda457",
+      "resume_next_update_parameter_error": null,
+      "note": "Dense timing/metrics inherited; continuation optimizer resets as before."
+    },
+    "branches": {
+      "dense_control": {
+        "start": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 0,
+          "global_step": 1000,
+          "targets_seen": 2048000,
+          "train_ce": 1.7818236351013184,
+          "validation_ce": 1.8894422352313995,
+          "elapsed_seconds_including_eval": 0.03689037699996334
+        },
+        "final": {
+          "seed": 17,
+          "phase": "dense_control",
+          "step": 1000,
+          "global_step": 2000,
+          "targets_seen": 4096000,
+          "train_ce": 1.566673383116722,
+          "validation_ce": 1.6912721544504166,
+          "elapsed_seconds_including_eval": 9.411944910999864,
+          "batch_task_ce": 1.6258492469787598,
+          "balance_loss": 0.0,
+          "objective": 1.6258492469787598,
+          "gradient_norm_before_clip": 1.727368712425232,
+          "router_gradient_norm": []
+        },
+        "test_ce": 1.8996646404266357,
+        "wall_seconds_including_eval": 9.412304325999912,
+        "targets_per_second_including_eval": 217587.52469814895,
+        "resume_next_update_parameter_error": 7.450580596923828e-09
+      },
+      "moe_continue": {
+        "start": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 0,
+          "global_step": 1000,
+          "targets_seen": 2048000,
+          "train_ce": 1.7818236202001572,
+          "validation_ce": 1.8894422352313995,
+          "elapsed_seconds_including_eval": 0.16657153900018784,
+          "expert_fractions": [
+            [
+              0.4482421875,
+              0.1114501953125,
+              0.0650634765625,
+              0.375244140625
+            ],
+            [
+              0.156005859375,
+              0.13568115234375,
+              0.3753662109375,
+              0.33294677734375
+            ],
+            [
+              0.2457275390625,
+              0.29779052734375,
+              0.26361083984375,
+              0.19287109375
+            ],
+            [
+              0.21636962890625,
+              0.21759033203125,
+              0.23046875,
+              0.3355712890625
+            ]
+          ],
+          "router_entropy": [
+            1.359581708908081,
+            1.3602604866027832,
+            1.3724448680877686,
+            1.368048071861267
+          ],
+          "expert_load_cv": [
+            0.6584333777427673,
+            0.4219030737876892,
+            0.15167275071144104,
+            0.19884972274303436
+          ]
+        },
+        "final": {
+          "seed": 17,
+          "phase": "moe_continue",
+          "step": 1000,
+          "global_step": 2000,
+          "targets_seen": 4096000,
+          "train_ce": 1.5160500556230545,
+          "validation_ce": 1.6572078317403793,
+          "elapsed_seconds_including_eval": 33.08100004800008,
+          "batch_task_ce": 1.575152039527893,
+          "balance_loss": 1.1589235067367554,
+          "objective": 1.586741328239441,
+          "gradient_norm_before_clip": 1.5647929906845093,
+          "router_gradient_norm": [
+            0.015719670802354813,
+            0.014216477051377296,
+            0.03432631120085716,
+            0.03622080013155937
+          ],
+          "expert_fractions": [
+            [
+              0.5,
+              0.27972412109375,
+              0.07171630859375,
+              0.1485595703125
+            ],
+            [
+              0.23333740234375,
+              0.31182861328125,
+              0.2291259765625,
+              0.2257080078125
+            ],
+            [
+              0.27728271484375,
+              0.2686767578125,
+              0.21380615234375,
+              0.240234375
+            ],
+            [
+              0.2755126953125,
+              0.2354736328125,
+              0.2298583984375,
+              0.2591552734375
+            ]
+          ],
+          "router_entropy": [
+            0.898261547088623,
+            1.3221629858016968,
+            1.2560185194015503,
+            1.1608901023864746
+          ],
+          "expert_load_cv": [
+            0.6494882702827454,
+            0.14319559931755066,
+            0.09997059404850006,
+            0.07352322340011597
+          ]
+        },
+        "test_ce": 1.8764966875314713,
+        "wall_seconds_including_eval": 33.08137438100016,
+        "targets_per_second_including_eval": 61907.94785044484,
+        "resume_next_update_parameter_error": 7.450580596923828e-09
+      }
+    },
+    "expert_matrix_changes_l2": {
+      "blocks.0.ffn.experts.0.gate.weight": 0.7170266509056091,
+      "blocks.0.ffn.experts.0.up.weight": 0.7042404413223267,
+      "blocks.0.ffn.experts.0.down.weight": 0.8025078773498535,
+      "blocks.0.ffn.experts.1.gate.weight": 0.9083715081214905,
+      "blocks.0.ffn.experts.1.up.weight": 0.8753460049629211,
+      "blocks.0.ffn.experts.1.down.weight": 1.0182766914367676,
+      "blocks.0.ffn.experts.2.gate.weight": 0.9864961504936218,
+      "blocks.0.ffn.experts.2.up.weight": 0.9446481466293335,
+      "blocks.0.ffn.experts.2.down.weight": 1.0571078062057495,
+      "blocks.0.ffn.experts.3.gate.weight": 0.9224904179573059,
+      "blocks.0.ffn.experts.3.up.weight": 0.9016703963279724,
+      "blocks.0.ffn.experts.3.down.weight": 1.0356968641281128,
+      "blocks.1.ffn.experts.0.gate.weight": 1.2528212070465088,
+      "blocks.1.ffn.experts.0.up.weight": 1.2155952453613281,
+      "blocks.1.ffn.experts.0.down.weight": 1.3809400796890259,
+      "blocks.1.ffn.experts.1.gate.weight": 1.2148387432098389,
+      "blocks.1.ffn.experts.1.up.weight": 1.1729694604873657,
+      "blocks.1.ffn.experts.1.down.weight": 1.2676905393600464,
+      "blocks.1.ffn.experts.2.gate.weight": 1.1567363739013672,
+      "blocks.1.ffn.experts.2.up.weight": 1.1066961288452148,
+      "blocks.1.ffn.experts.2.down.weight": 1.2106070518493652,
+      "blocks.1.ffn.experts.3.gate.weight": 1.133244514465332,
+      "blocks.1.ffn.experts.3.up.weight": 1.0766947269439697,
+      "blocks.1.ffn.experts.3.down.weight": 1.1837660074234009,
+      "blocks.2.ffn.experts.0.gate.weight": 1.6548467874526978,
+      "blocks.2.ffn.experts.0.up.weight": 1.5845863819122314,
+      "blocks.2.ffn.experts.0.down.weight": 1.6940230131149292,
+      "blocks.2.ffn.experts.1.gate.weight": 1.8157535791397095,
+      "blocks.2.ffn.experts.1.up.weight": 1.732411503791809,
+      "blocks.2.ffn.experts.1.down.weight": 1.9065451622009277,
+      "blocks.2.ffn.experts.2.gate.weight": 1.7612920999526978,
+      "blocks.2.ffn.experts.2.up.weight": 1.7064218521118164,
+      "blocks.2.ffn.experts.2.down.weight": 1.8696922063827515,
+      "blocks.2.ffn.experts.3.gate.weight": 1.7484163045883179,
+      "blocks.2.ffn.experts.3.up.weight": 1.663387656211853,
+      "blocks.2.ffn.experts.3.down.weight": 1.8016594648361206,
+      "blocks.3.ffn.experts.0.gate.weight": 2.223893165588379,
+      "blocks.3.ffn.experts.0.up.weight": 2.072692394256592,
+      "blocks.3.ffn.experts.0.down.weight": 2.018822431564331,
+      "blocks.3.ffn.experts.1.gate.weight": 2.1495699882507324,
+      "blocks.3.ffn.experts.1.up.weight": 2.0409157276153564,
+      "blocks.3.ffn.experts.1.down.weight": 1.9641779661178589,
+      "blocks.3.ffn.experts.2.gate.weight": 2.232609987258911,
+      "blocks.3.ffn.experts.2.up.weight": 2.1251380443573,
+      "blocks.3.ffn.experts.2.down.weight": 2.0853586196899414,
+      "blocks.3.ffn.experts.3.gate.weight": 2.0720181465148926,
+      "blocks.3.ffn.experts.3.up.weight": 1.9478418827056885,
+      "blocks.3.ffn.experts.3.down.weight": 1.865960717201233
+    },
+    "acceptance": {
+      "dense_train_drops": true,
+      "dense_validation_drops": true,
+      "moe_train_drops": true,
+      "moe_validation_drops": true,
+      "all_expert_matrices_updated": true,
+      "conversion_preserved": true
+    },
+    "peak_cuda_memory_allocated_bytes": 262541824
+  }
+]
