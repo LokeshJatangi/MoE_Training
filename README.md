@@ -1,8 +1,12 @@
 # Dense GPT → Sparse Mixture of Experts
 
-**Completed experimental study · Google Colab Tesla T4 · seed 17 · 13 October 2026**
+We started with a simple linear-model routing test on CPU, then moved to small dense GPTs and completed GPU experiments on a Tesla T4. Copying trained feed-forward blocks into full-size experts preserved the starting model’s predictions and allowed further learning; the character-level MoE finished ahead of its dense continuation control.
 
-We trained GPTs, converted their feed-forward blocks into sparse experts, and continued reducing loss. Smaller experts recovered their conversion loss. Hard cloning left 16/48 experts untrained. Router perturbation, bias balancing, family-aware balancing and warmup each eliminated that failure; perturbation gave the lowest follow-up loss, while balancing gave the most even expert use.
+Splitting those blocks into smaller experts initially worsened loss. Continued training recovered that loss, but the dense control still finished slightly better and faster.
+
+We then grew a trained MoE from four to twelve experts per layer by cloning. Immediate hard routing reduced loss but left 16 of 48 experts completely untrained. Sampled warmup and gradual switching to hard routing fixed this. Later, a small one-time router perturbation and balancing biases also gave every expert training exposure and task gradients. Perturbation achieved the lowest final loss; bias balancing gave the most even expert use. These are small, single-seed results, not a general guarantee that MoE wins.
+
+**Completed experimental study · Google Colab Tesla T4 · seed 17 · 13 October 2026**
 
 | Completed T4 experiment | Conversion/start validation CE | Final validation CE | Final test CE | Main finding |
 | --- | --- | --- | --- | --- |
